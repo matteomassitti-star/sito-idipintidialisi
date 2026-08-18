@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "rm -rf dist && mkdir -p dist && tar -xzf site-text.tar.gz -C dist",
+  "buildCommand": "rm -rf dist && mkdir -p dist && cat site-text.part-* > /tmp/site-text.tar.gz && tar -xzf /tmp/site-text.tar.gz -C dist",
   "outputDirectory": "dist",
   "rewrites": [
     { "source": "/opere/:path*", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/opere/:path*" },
