@@ -1,18 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "buildCommand": "rm -rf dist && mkdir -p dist && cat site-text.part-* > /tmp/site-text.tar.gz && tar -xzf /tmp/site-text.tar.gz -C dist",
-  "outputDirectory": "dist",
-  "rewrites": [
-    { "source": "/opere/:path*", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/opere/:path*" },
-    { "source": "/logo-alisi.png", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/logo-alisi.png" },
-    { "source": "/apple-touch-icon.png", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/apple-touch-icon.png" },
-    { "source": "/android-chrome-192x192.png", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/android-chrome-192x192.png" },
-    { "source": "/android-chrome-512x512.png", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/android-chrome-512x512.png" },
-    { "source": "/favicon-16x16.png", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/favicon-16x16.png" },
-    { "source": "/favicon-32x32.png", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/favicon-32x32.png" },
-    { "source": "/favicon.ico", "destination": "https://idipintidialisi-7phz4x825-matteomassitti-6749s-projects.vercel.app/favicon.ico" }
-  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -25,11 +12,15 @@
     },
     {
       "source": "/admin/(.*)",
-      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }]
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }
+      ]
     },
     {
       "source": "/api/(.*)",
-      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
     }
   ]
 }

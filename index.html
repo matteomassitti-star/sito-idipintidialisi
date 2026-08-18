@@ -1,0 +1,2320 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stefano Alisi – Pittore Contemporaneo | I Dipinti di Alisi</title>
+<meta name="description" content="Sito ufficiale di Stefano Alisi, pittore contemporaneo italiano nato a Roma. Opere, acquarelli, cicli artistici, mostre, critica e ricerca tra natura, simbolo e surrealismo poetico.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="https://www.idipintidialisi.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="I Dipinti di Alisi">
+<meta property="og:title" content="Stefano Alisi – Pittore Contemporaneo | I Dipinti di Alisi">
+<meta property="og:description" content="Sito ufficiale di Stefano Alisi, pittore contemporaneo italiano. Opere, acquarelli, cicli artistici, mostre, critica e surrealismo poetico.">
+<meta property="og:url" content="https://www.idipintidialisi.com/">
+<meta property="og:image" content="https://www.idipintidialisi.com/opere/t0.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stefano Alisi – Pittore Contemporaneo">
+<meta name="twitter:description" content="Sito ufficiale di Stefano Alisi. Opere, cicli artistici, mostre, critica e video.">
+<meta name="twitter:image" content="https://www.idipintidialisi.com/opere/t0.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.idipintidialisi.com/#website",
+      "url": "https://www.idipintidialisi.com/",
+      "name": "I Dipinti di Alisi",
+      "alternateName": "Stefano Alisi – Pittore Contemporaneo",
+      "inLanguage": "it-IT"
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://www.idipintidialisi.com/#profile",
+      "url": "https://www.idipintidialisi.com/",
+      "name": "Stefano Alisi – Pittore Contemporaneo",
+      "isPartOf": {"@id": "https://www.idipintidialisi.com/#website"},
+      "mainEntity": {
+        "@type": "Person",
+        "@id": "https://www.idipintidialisi.com/#stefano-alisi",
+        "name": "Stefano Alisi",
+        "jobTitle": "Pittore contemporaneo",
+        "url": "https://www.idipintidialisi.com/",
+        "image": "https://www.idipintidialisi.com/opere/t0.jpg",
+        "sameAs": [
+          "https://www.instagram.com/stefano.alisi",
+          "http://studiolab138.altervista.org/stefano-alisi.html"
+        ]
+      }
+    }
+  ]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --blue:#2D5FA8;--blue-light:#3E6B9F;
+  --bg:#FAFAF8;--bg2:#F3F1EE;--bg3:#EDE9E3;
+  --ink:#1A1714;--ink2:rgba(26,23,20,.55);--ink3:rgba(26,23,20,.32);
+  --gold:#B8841E;--gold2:#E8C97A;
+  --border:rgba(26,23,20,.1);--border2:rgba(26,23,20,.06);
+  --ff-d:'Cormorant Garamond',Georgia,serif;
+  --ff-b:'Jost',system-ui,sans-serif;
+  --modal-dur:.38s;
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{background:var(--bg);color:var(--ink);font-family:var(--ff-b);font-weight:300;overflow-x:hidden}
+
+/* ──────────── NAV ──────────── */
+.nav{position:fixed;top:0;width:100%;z-index:300;transition:background .3s,box-shadow .3s}
+.nav.scrolled{background:rgba(250,250,248,.96);backdrop-filter:blur(16px);box-shadow:0 1px 0 var(--border)}
+.nav-inner{max-width:1400px;margin:0 auto;padding:0 3rem;height:64px;display:flex;align-items:center;justify-content:space-between}
+.nav-brand{font-family:var(--ff-d);font-size:1.15rem;font-weight:400;letter-spacing:.05em;color:var(--ink);text-decoration:none;opacity:.9}
+.nav-brand em{font-style:italic;color:var(--gold)}
+.nav-links{display:flex;gap:2.2rem;list-style:none}
+.nav-links a{font-size:.65rem;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);text-decoration:none;opacity:.45;transition:opacity .2s}
+.nav-links a:hover{opacity:1}
+.nav-enter{border:.5px solid var(--ink);padding:.4rem 1.1rem;opacity:.7!important;font-size:.6rem!important;transition:all .2s!important}
+.nav-enter:hover{background:var(--ink);color:var(--bg)!important;opacity:1!important}
+
+/* ──────────── HERO ──────────── */
+.hero{height:100vh;min-height:600px;position:relative;display:flex;align-items:flex-end;overflow:hidden}
+.hero-bg-wrap{position:absolute;inset:0}
+.hero-bg-img{width:100%;height:100%;object-fit:cover;object-position:24% center;filter:brightness(.34) saturate(.82);transition:filter .25s ease,object-position .25s ease}
+.hero-gradient{position:absolute;inset:0;background:linear-gradient(to top,rgba(26,23,20,.86) 0%,rgba(26,23,20,.26) 48%,rgba(26,23,20,.06) 100%)}
+.hero-content{position:relative;z-index:2;width:100%;padding:0 3rem 5rem;max-width:1400px;margin:0 auto}
+.hero-eyebrow{font-size:.65rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold2);opacity:.75;margin-bottom:1.4rem}
+.hero-name{font-family:var(--ff-d);font-size:clamp(52px,9vw,108px);font-weight:300;line-height:.92;color:#FAF9F7;margin-bottom:.5rem}
+.hero-name em{display:block;font-style:italic;color:var(--gold2)}
+.hero-tagline{font-family:var(--ff-d);font-size:clamp(14px,1.8vw,19px);font-style:italic;color:rgba(250,249,247,.45);margin-bottom:3rem;max-width:500px}
+.hero-ctas{display:flex;gap:1rem;flex-wrap:wrap}
+.btn-ghost{display:inline-block;padding:.8rem 2.2rem;border:.5px solid rgba(250,249,247,.4);font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:#FAF9F7;text-decoration:none;transition:all .3s}
+.btn-ghost:hover{background:#FAF9F7;color:var(--ink)}
+.btn-solid{background:var(--gold);border:.5px solid var(--gold);color:var(--ink)}
+.btn-solid:hover{background:var(--gold2);border-color:var(--gold2)}
+.hero-scroll{position:absolute;bottom:2.5rem;right:3rem;z-index:2;display:flex;align-items:center;gap:.8rem;text-decoration:none}
+.hs-label{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,249,247,.28)}
+.hs-line{width:48px;height:.5px;background:rgba(250,249,247,.22)}
+
+/* ──────────── INTRO BAND ──────────── */
+.intro-band{background:var(--ink);padding:3rem;display:flex;justify-content:center;gap:5rem;align-items:center;flex-wrap:wrap}
+.ib-item{text-align:center}
+.ib-num{font-family:var(--ff-d);font-size:2.6rem;font-weight:300;color:var(--gold2);line-height:1;display:block}
+.ib-label{font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,249,247,.4);margin-top:.3rem}
+.ib-sep{width:.5px;height:44px;background:rgba(250,249,247,.1)}
+
+/* ──────────── MOSTRA HEADER ──────────── */
+.mostra-header{padding:6rem 3rem 3rem;max-width:1400px;margin:0 auto;display:flex;align-items:baseline;justify-content:space-between;border-bottom:.5px solid var(--border)}
+.mh-left{}
+.mh-label{font-size:.62rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);opacity:.8;margin-bottom:.8rem;display:block}
+.mh-title{font-family:var(--ff-d);font-size:clamp(32px,5vw,58px);font-weight:300;line-height:1;color:var(--ink)}
+.mh-sub{font-size:.82rem;color:var(--ink2);margin-top:.6rem;max-width:500px;line-height:1.7}
+.mh-right{text-align:right}
+.mh-count{font-family:var(--ff-d);font-size:3.5rem;font-weight:300;color:var(--ink3);line-height:1}
+.mh-count-label{font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ink3)}
+
+/* SERIES NAV */
+.series-nav{max-width:1400px;margin:0 auto;padding:1.2rem 3rem;display:flex;gap:0;border-bottom:.5px solid var(--border);overflow-x:auto;position:sticky;top:64px;z-index:120;background:rgba(250,250,248,.96);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.sn-item{font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ink3);text-decoration:none;padding:.6rem 1.4rem;border-right:.5px solid var(--border);white-space:nowrap;transition:color .2s;flex-shrink:0}
+.sn-item:first-child{padding-left:0}
+.sn-item:hover{color:var(--ink)}
+.sn-item.active{color:var(--ink);font-weight:500}
+
+/* ──────────── SERIES SECTION ──────────── */
+.series-section{padding:0 0 5rem}
+.series-header{background:var(--bg2);border-bottom:.5px solid var(--border)}
+.sh-inner{max-width:1400px;margin:0 auto;padding:2.5rem 3rem;display:flex;align-items:center;gap:2.5rem}
+.sh-num{font-family:var(--ff-d);font-size:4rem;font-weight:300;color:var(--sc);opacity:.25;line-height:1;flex-shrink:0;width:60px}
+.sh-text{flex:1}
+.sh-title{font-family:var(--ff-d);font-size:clamp(22px,3.5vw,36px);font-weight:300;color:var(--ink);margin-bottom:.3rem}
+.sh-desc{font-size:.8rem;color:var(--ink2);line-height:1.65;max-width:680px}
+.sh-count{font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--sc);padding:.3rem .8rem;border:.5px solid currentColor;opacity:.7;flex-shrink:0}
+
+/* WORKS GRID */
+.works-grid{max-width:1400px;margin:0 auto;padding:2.5rem 3rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:2rem}
+
+.work-card{cursor:pointer;transition:transform .3s}
+.work-card:hover{transform:translateY(-3px)}
+.work-thumb{position:relative;overflow:hidden;background:var(--bg3)}
+.work-thumb img{width:100%;height:260px;object-fit:cover;display:block;transition:transform .5s ease}
+.work-card:hover .work-thumb img{transform:scale(1.03)}
+.work-overlay{position:absolute;inset:0;background:rgba(26,23,20,.0);display:flex;align-items:center;justify-content:center;transition:background .3s}
+.work-card:hover .work-overlay{background:rgba(26,23,20,.3)}
+.wo-zoom{font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:#FAF9F7;opacity:0;transition:opacity .3s;border:.5px solid rgba(250,249,247,.5);padding:.5rem 1rem}
+.work-card:hover .wo-zoom{opacity:1}
+.work-info{padding:.85rem 0 0}
+.wi-title{font-family:var(--ff-d);font-size:1rem;font-style:italic;color:var(--ink);margin-bottom:3px;line-height:1.2}
+.wi-tech{font-size:.68rem;color:var(--ink2);letter-spacing:.04em}
+.wi-dims{color:var(--ink3)}
+.wi-year{font-size:.62rem;color:var(--ink3);margin-top:2px;letter-spacing:.06em}
+
+/* ──────────── MODAL ──────────── */
+.modal{position:fixed;inset:0;z-index:500;display:flex;background:#0F0D0A;opacity:0;pointer-events:none;transition:opacity var(--modal-dur)}
+.modal.open{opacity:1;pointer-events:all}
+.modal-left{flex:1;min-width:0;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#0F0D0A;cursor:zoom-in}
+.modal-left.zoomed{cursor:zoom-out}
+.modal-img-wrap{width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:3rem}
+.modal-img{max-width:100%;max-height:90vh;object-fit:contain;display:block;transition:transform .35s ease;transform-origin:center center;user-select:none}
+.modal-img.zoomed{transform:scale(2.8)}
+.modal-right{width:380px;flex-shrink:0;background:#161310;border-left:.5px solid rgba(250,249,247,.06);display:flex;flex-direction:column;overflow-y:auto;padding:4rem 2.5rem 2.5rem}
+.mr-close{position:absolute;top:1.4rem;right:1.6rem;z-index:10;font-size:1.3rem;color:rgba(250,249,247,.35);cursor:pointer;background:none;border:none;font-family:var(--ff-b);font-weight:200;transition:color .2s;line-height:1}
+.mr-close:hover{color:rgba(250,249,247,.9)}
+.mr-series{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--modal-sc,var(--gold2));opacity:.75;margin-bottom:1.2rem}
+.mr-title{font-family:var(--ff-d);font-size:clamp(22px,2.5vw,34px);font-style:italic;font-weight:300;color:#FAF9F7;line-height:1.15;margin-bottom:1.2rem}
+.mr-tech{font-size:.72rem;letter-spacing:.08em;color:rgba(250,249,247,.45);margin-bottom:.3rem}
+.mr-dims{font-size:.72rem;color:rgba(250,249,247,.3);margin-bottom:.3rem}
+.mr-year{font-size:.7rem;letter-spacing:.1em;color:var(--gold2);opacity:.65;margin-bottom:2rem}
+.mr-divider{width:32px;height:.5px;background:rgba(250,249,247,.15);margin-bottom:1.8rem}
+.mr-desc{font-size:.85rem;line-height:1.85;color:rgba(250,249,247,.55);flex:1}
+.mr-nav{display:flex;justify-content:space-between;align-items:center;margin-top:2.5rem;padding-top:1.5rem;border-top:.5px solid rgba(250,249,247,.06)}
+.mr-btn{font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,249,247,.35);cursor:pointer;background:none;border:none;font-family:var(--ff-b);transition:color .2s;padding:.5rem 0}
+.mr-btn:hover{color:rgba(250,249,247,.85)}
+.mr-counter{font-family:var(--ff-d);font-size:.9rem;color:rgba(250,249,247,.2)}
+.zoom-hint{position:absolute;bottom:1.2rem;left:50%;transform:translateX(-50%);font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,249,247,.25);pointer-events:none;transition:opacity .3s}
+.modal-left.zoomed .zoom-hint{opacity:0}
+
+/* ──────────── ARTIST SECTION ──────────── */
+.artist-section{background:var(--bg2);padding:7rem 3rem}
+.artist-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1.2fr;gap:7rem;align-items:start}
+.ai-portrait-wrap{position:relative}
+.ai-portrait{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 10%;display:block;filter:sepia(6%) contrast(1.05)}
+.ai-caption{position:absolute;bottom:-1.2rem;left:-1.2rem;background:var(--gold);padding:1rem 1.3rem;font-family:var(--ff-d);font-size:1.9rem;font-weight:300;font-style:italic;color:var(--bg);line-height:1}
+.ai-right{}
+.ai-label{font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem;display:block;opacity:.85}
+.ai-name{font-family:var(--ff-d);font-size:clamp(28px,4vw,52px);font-weight:300;line-height:1.1;color:var(--ink);margin-bottom:2rem}
+.ai-bio{font-size:.88rem;line-height:1.95;color:var(--ink2);margin-bottom:1rem}
+.ai-quote{font-family:var(--ff-d);font-size:clamp(16px,2vw,21px);font-style:italic;font-weight:300;color:var(--ink);border-left:2px solid var(--gold);padding-left:1.4rem;margin:2.2rem 0;line-height:1.55}
+.ai-tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.8rem}
+.ai-tag{font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;padding:.3rem .85rem;border:.5px solid var(--border);color:var(--ink2)}
+
+/* ──────────── CRITICA ──────────── */
+.critica-section{padding:7rem 3rem;background:var(--bg)}
+.cs-inner{max-width:1000px;margin:0 auto}
+.cs-label{font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);opacity:.8;margin-bottom:2rem;display:block}
+.cs-pull{font-family:var(--ff-d);font-size:clamp(18px,2.2vw,25px);font-style:italic;font-weight:300;line-height:1.55;color:var(--ink);margin-bottom:3rem}
+.cs-body{font-size:.84rem;line-height:1.85;color:var(--ink2)}
+.cs-body p{margin-bottom:1rem;break-inside:avoid}
+.cs-attr{margin-top:1.5rem;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);text-align:right}
+.cs-iorio{margin-top:3rem;padding:2rem;background:var(--bg2);border-left:2px solid var(--gold)}
+.cs-iorio p{font-size:.82rem;line-height:1.8;color:var(--ink2)}
+.cs-iorio cite{display:block;margin-top:.8rem;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-style:normal;opacity:.8}
+
+/* ──────────── TIMELINE ──────────── */
+.timeline-section{padding:7rem 3rem;background:var(--bg2)}
+.tl-inner{max-width:900px;margin:0 auto}
+.tl-head{border-bottom:.5px solid var(--border);padding-bottom:1rem;margin-bottom:3.5rem;display:flex;justify-content:space-between;align-items:baseline}
+.tl-title{font-family:var(--ff-d);font-size:clamp(24px,4vw,40px);font-weight:300}
+.tl-subtitle{font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ink3)}
+.tl-group{margin-bottom:3rem}
+.tl-group-label{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);opacity:.8;margin-bottom:1.5rem;padding-left:2.5rem;position:relative}
+.tl-group-label::before{content:'';position:absolute;left:0;top:50%;width:2rem;height:.5px;background:var(--gold);opacity:.5;transform:translateY(-50%)}
+.tl-item{display:grid;grid-template-columns:70px 1fr;gap:1.5rem;padding:1.2rem 0;border-bottom:.5px solid var(--border2);align-items:start}
+.tl-year{font-family:var(--ff-d);font-size:1.8rem;font-weight:300;color:var(--gold);line-height:1;opacity:.8}
+.tl-info{}
+.tl-mostra{font-family:var(--ff-d);font-size:1rem;font-style:italic;color:var(--ink);margin-bottom:.25rem}
+.tl-venue{font-size:.75rem;color:var(--ink2)}
+.tl-badge{display:inline-block;font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;padding:.25rem .7rem;border:.5px solid;margin-top:.4rem}
+.tb-p{border-color:var(--gold);color:var(--gold)}
+.tb-c{border-color:#4A7A52;color:#4A7A52}
+.tb-i{border-color:#294D78;color:#294D78}
+
+/* ──────────── VIDEO ──────────── */
+.video-section{padding:6rem 3rem;background:var(--ink)}
+.vs-inner{max-width:1400px;margin:0 auto}
+.vs-head{border-bottom:.5px solid rgba(250,249,247,.08);padding-bottom:1rem;margin-bottom:3rem;display:flex;justify-content:space-between;align-items:baseline}
+.vs-title{font-family:var(--ff-d);font-size:clamp(24px,4vw,38px);font-weight:300;color:#FAF9F7}
+.video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.vc{border:.5px solid rgba(250,249,247,.08);padding:2rem;cursor:pointer;transition:border-color .25s,background .25s;text-decoration:none;display:block}
+.vc:hover{border-color:rgba(250,249,247,.2);background:rgba(250,249,247,.03)}
+.vc-n{font-family:var(--ff-d);font-size:2.8rem;font-weight:300;color:var(--gold2);opacity:.25;line-height:1;margin-bottom:1rem}
+.vc-t{font-family:var(--ff-d);font-size:1rem;font-style:italic;color:#FAF9F7;margin-bottom:.6rem;line-height:1.3}
+.vc-d{font-size:.75rem;color:rgba(250,249,247,.38);line-height:1.65;margin-bottom:1.2rem}
+.vc-link{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);opacity:.65}
+
+/* ──────────── CONTACT ──────────── */
+.contact-section{padding:6.5rem 3rem;background:var(--ink);border-top:.5px solid rgba(250,249,247,.05)}
+.contact-inner{max-width:540px;margin:0 auto;text-align:center}
+.ci-label{font-size:.62rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold2);opacity:.65;margin-bottom:1.5rem;display:block}
+.ci-h{font-family:var(--ff-d);font-size:clamp(32px,5vw,54px);font-weight:300;color:#FAF9F7;margin-bottom:.7rem;line-height:1}
+.ci-sub{font-size:.85rem;color:rgba(250,249,247,.32);margin-bottom:2.8rem}
+.cf{display:flex;flex-direction:column;gap:.7rem}
+.cf-row{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}
+.cf input,.cf textarea{width:100%;background:transparent;border:.5px solid rgba(250,249,247,.12);color:#FAF9F7;font-family:var(--ff-b);font-size:.82rem;font-weight:300;padding:.85rem 1.1rem;outline:none;transition:border-color .25s}
+.cf input:focus,.cf textarea:focus{border-color:rgba(250,249,247,.4)}
+.cf input::placeholder,.cf textarea::placeholder{color:rgba(250,249,247,.2);font-size:.75rem;letter-spacing:.05em}
+.cf textarea{resize:none;height:95px}
+.cf-btn{background:var(--gold);border:none;color:var(--ink);font-family:var(--ff-b);font-size:.65rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;padding:.9rem;width:100%;cursor:pointer;transition:opacity .2s}
+.cf-btn:hover{opacity:.85}
+.ci-direct{margin-top:2rem;display:flex;justify-content:center;gap:2.5rem;flex-wrap:wrap}
+.ci-lk{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(250,249,247,.3);text-decoration:none;transition:color .25s}
+.ci-lk:hover{color:rgba(250,249,247,.85)}
+.ci-phone{margin-top:1rem;font-size:.75rem;color:rgba(250,249,247,.2);letter-spacing:.08em}
+
+/* ──────────── FOOTER ──────────── */
+footer{background:var(--ink);padding:1.5rem 3rem;display:flex;justify-content:space-between;align-items:center;border-top:.5px solid rgba(250,249,247,.05)}
+.fl{font-family:var(--ff-d);font-size:.8rem;color:rgba(250,249,247,.22);font-weight:300}
+.fr{display:flex;gap:2rem}
+.fr a{font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,249,247,.2);text-decoration:none;transition:color .2s}
+.fr a:hover{color:rgba(250,249,247,.65)}
+
+/* ──────────── UTILS ──────────── */
+body.modal-open{overflow:hidden}
+
+/* ── NAV: bianco su hero scuro, scuro su sfondo chiaro ── */
+.nav:not(.scrolled) .nav-brand,
+.nav:not(.scrolled) .nav-links a{color:#FAF9F7}
+.nav:not(.scrolled) .nav-enter{border-color:rgba(250,249,247,.5);color:#FAF9F7!important}
+.nav:not(.scrolled) .nav-enter:hover{background:#FAF9F7;color:var(--ink)!important}
+.nav.scrolled .nav-brand,.nav.scrolled .nav-links a{color:var(--ink)}
+.nav-brand{transition:color .3s;display:flex;align-items:center;gap:.6rem;text-decoration:none}
+.nav-brand em{font-style:italic;color:var(--gold)}
+.nav.scrolled .nav-brand em{color:var(--gold)}
+.nav:not(.scrolled) .nav-brand em{color:var(--gold2)}
+.nav-logo-icon{width:26px;height:26px;flex-shrink:0;transition:color .3s}
+
+/* ── MEDIA SECTION ── */
+.media-section{padding:6rem 3rem;background:var(--ink)}
+.ms-inner{max-width:1400px;margin:0 auto}
+.ms-head{border-bottom:.5px solid rgba(250,249,247,.08);padding-bottom:1rem;margin-bottom:3rem}
+.ms-title{font-family:var(--ff-d);font-size:clamp(24px,4vw,38px);font-weight:300;color:#FAF9F7}
+.ms-tabs{display:flex;gap:0;margin-bottom:2.5rem;border-bottom:.5px solid rgba(250,249,247,.1)}
+.ms-tab{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;padding:.7rem 1.5rem;color:rgba(250,249,247,.3);cursor:pointer;border-bottom:1.5px solid transparent;transition:all .2s;background:none;border-top:none;border-left:none;border-right:none;font-family:var(--ff-b)}
+.ms-tab.active{color:var(--gold2);border-bottom-color:var(--gold)}
+.ms-panel{display:none}.ms-panel.active{display:block}
+/* YouTube grid */
+.yt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+.yt-card{border:.5px solid rgba(250,249,247,.08);overflow:hidden;cursor:pointer;transition:border-color .25s,transform .25s;text-decoration:none;display:block}
+.yt-card:hover{border-color:rgba(250,249,247,.25);transform:translateY(-2px)}
+.yt-thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:rgba(250,249,247,.05)}
+.yt-thumb-ph{width:100%;aspect-ratio:16/9;background:rgba(250,249,247,.04);display:flex;align-items:center;justify-content:center}
+.yt-play{width:44px;height:44px;background:rgba(255,0,0,.8);border-radius:50%;display:flex;align-items:center;justify-content:center}
+.yt-play::after{content:'';border-left:14px solid white;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:3px}
+.yt-info{padding:1rem 1.2rem}
+.yt-label{font-size:.55rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold2);opacity:.6;margin-bottom:.4rem}
+.yt-title{font-family:var(--ff-d);font-size:.95rem;font-style:italic;color:#FAF9F7;margin-bottom:.4rem;line-height:1.3}
+.yt-desc{font-size:.72rem;color:rgba(250,249,247,.38);line-height:1.55;margin-bottom:.7rem}
+.yt-link{font-size:.58rem;letter-spacing:.13em;text-transform:uppercase;color:var(--gold2);opacity:.6}
+/* Facebook grid */
+.fb-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.fb-card{border:.5px solid rgba(250,249,247,.07);padding:1.2rem;cursor:pointer;text-decoration:none;display:block;transition:border-color .2s,background .2s}
+.fb-card:hover{border-color:rgba(250,249,247,.2);background:rgba(250,249,247,.03)}
+.fb-icon{width:28px;height:28px;margin-bottom:.8rem;opacity:.5}
+.fb-type{font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,249,247,.3);margin-bottom:.4rem}
+.fb-title{font-family:var(--ff-d);font-size:.88rem;font-style:italic;color:rgba(250,249,247,.7);line-height:1.3}
+/* Press */
+.press-card{border:.5px solid rgba(250,249,247,.1);padding:2rem;display:flex;gap:2rem;align-items:start;text-decoration:none;transition:border-color .2s}
+.press-card:hover{border-color:rgba(250,249,247,.3)}
+.press-logo{font-family:var(--ff-d);font-size:1.4rem;font-style:italic;color:var(--gold2);opacity:.7;flex-shrink:0;writing-mode:vertical-rl;transform:rotate(180deg)}
+.press-body{}
+.press-source{font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold2);opacity:.65;margin-bottom:.6rem}
+.press-headline{font-family:var(--ff-d);font-size:1.1rem;color:#FAF9F7;margin-bottom:.6rem;line-height:1.35}
+.press-excerpt{font-size:.78rem;color:rgba(250,249,247,.42);line-height:1.65;margin-bottom:1rem}
+.press-read{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);opacity:.6}
+
+/* High contrast mode */
+body.high-contrast{filter:contrast(1.5) saturate(0)}
+body.high-contrast .nav.scrolled{background:white!important}
+/* Dyslexic font */
+body.dyslexic-font *{font-family:'Comic Sans MS','Arial',sans-serif!important;letter-spacing:.08em!important;line-height:1.9!important;word-spacing:.12em!important}
+/* Large text */
+body.large-text{font-size:19px!important}
+/* TTS highlight */
+.tts-highlight{background:rgba(184,132,30,.25);outline:1px solid var(--gold)}
+
+/* ── ADMIN PANEL ── */
+.admin-overlay{position:fixed;inset:0;z-index:1000;background:#0F0D0A;display:none;flex-direction:column}
+.admin-overlay.open{display:flex}
+.admin-login{width:100%;height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1.5rem}
+.admin-login-box{background:#1A1714;border:.5px solid rgba(250,249,247,.12);padding:3rem;width:380px;text-align:center}
+.adm-logo{font-family:var(--ff-d);font-size:1.8rem;font-weight:300;font-style:italic;color:var(--gold2);margin-bottom:.3rem}
+.adm-sub{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,249,247,.3);margin-bottom:2rem}
+.adm-field{width:100%;background:transparent;border:.5px solid rgba(250,249,247,.15);color:#FAF9F7;font-family:var(--ff-b);font-size:.85rem;font-weight:300;padding:.8rem 1rem;outline:none;margin-bottom:.8rem;transition:border-color .2s}
+.adm-field:focus{border-color:rgba(250,249,247,.4)}
+.adm-field::placeholder{color:rgba(250,249,247,.2);font-size:.78rem}
+.adm-btn{width:100%;background:var(--gold);border:none;color:var(--ink);font-family:var(--ff-b);font-size:.68rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;padding:.9rem;cursor:pointer;transition:opacity .2s}
+.adm-btn:hover{opacity:.85}
+.adm-err{font-size:.72rem;color:#E86060;margin-bottom:.8rem;min-height:1rem}
+/* Dashboard */
+.admin-dash{display:flex;height:100vh;width:100%}
+.adm-sidebar{width:220px;background:#111009;border-right:.5px solid rgba(250,249,247,.07);padding:1.5rem;flex-shrink:0;display:flex;flex-direction:column}
+.adm-brand{font-family:var(--ff-d);font-size:1.1rem;font-weight:300;font-style:italic;color:var(--gold2);margin-bottom:2rem}
+.adm-nav{display:flex;flex-direction:column;gap:.2rem;flex:1}
+.adm-nav-item{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,249,247,.38);padding:.7rem .9rem;cursor:pointer;border-radius:2px;transition:all .2s;background:none;border:none;font-family:var(--ff-b);text-align:left}
+.adm-nav-item:hover{color:rgba(250,249,247,.8);background:rgba(250,249,247,.05)}
+.adm-nav-item.active{color:var(--gold2);background:rgba(184,132,30,.1)}
+.adm-logout{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,249,247,.25);padding:.7rem .9rem;cursor:pointer;background:none;border:.5px solid rgba(250,249,247,.1);color:rgba(250,249,247,.35);font-family:var(--ff-b);margin-top:auto;transition:all .2s}
+.adm-logout:hover{color:#E86060;border-color:#E86060}
+.adm-main{flex:1;overflow-y:auto;padding:2.5rem 3rem;background:#161410}
+.adm-page{display:none}.adm-page.active{display:block}
+.adm-page-title{font-family:var(--ff-d);font-size:1.6rem;font-weight:300;color:#FAF9F7;margin-bottom:.3rem;font-style:italic}
+.adm-page-sub{font-size:.72rem;color:rgba(250,249,247,.3);margin-bottom:2rem}
+/* Admin table */
+.adm-table{width:100%;border-collapse:collapse}
+.adm-table th{font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,249,247,.3);padding:.7rem .8rem;text-align:left;border-bottom:.5px solid rgba(250,249,247,.08)}
+.adm-table td{padding:.8rem;border-bottom:.5px solid rgba(250,249,247,.05);font-size:.8rem;color:rgba(250,249,247,.65);vertical-align:middle}
+.adm-table td img{width:48px;height:36px;object-fit:cover;display:block}
+.adm-table tr:hover td{background:rgba(250,249,247,.025)}
+.adm-action-btn{font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;padding:.3rem .7rem;border:none;cursor:pointer;font-family:var(--ff-b);border-radius:2px;transition:opacity .2s}
+.adm-action-btn:hover{opacity:.8}
+.btn-edit{background:var(--gold);color:var(--ink)}
+.btn-del{background:rgba(232,96,96,.2);color:#E86060;border:.5px solid rgba(232,96,96,.3)}
+/* Admin form */
+.adm-form{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem}
+.adm-form-full{grid-column:1/-1}
+.adm-label{font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(250,249,247,.35);margin-bottom:.4rem;display:block}
+.adm-input{width:100%;background:rgba(250,249,247,.05);border:.5px solid rgba(250,249,247,.12);color:#FAF9F7;font-family:var(--ff-b);font-size:.82rem;font-weight:300;padding:.75rem 1rem;outline:none;transition:border-color .2s}
+.adm-input:focus{border-color:rgba(250,249,247,.35)}
+.adm-input::placeholder{color:rgba(250,249,247,.2)}
+.adm-textarea{resize:vertical;min-height:80px}
+.adm-select{background:#1A1714;color:#FAF9F7}
+.adm-save-btn{background:var(--gold);border:none;color:var(--ink);font-family:var(--ff-b);font-size:.65rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;padding:.8rem 2rem;cursor:pointer;transition:opacity .2s;margin-top:.5rem}
+.adm-save-btn:hover{opacity:.85}
+.adm-cancel-btn{background:rgba(250,249,247,.06);border:.5px solid rgba(250,249,247,.1);color:rgba(250,249,247,.45);font-family:var(--ff-b);font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;padding:.8rem 1.5rem;cursor:pointer;margin-top:.5rem;margin-left:.5rem}
+.adm-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2.5rem}
+.adm-stat-card{background:rgba(250,249,247,.04);border:.5px solid rgba(250,249,247,.07);padding:1.5rem}
+.adm-stat-num{font-family:var(--ff-d);font-size:2.5rem;font-weight:300;color:var(--gold2);line-height:1;margin-bottom:.3rem}
+.adm-stat-label{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,249,247,.3)}
+.adm-notice{background:rgba(184,132,30,.1);border:.5px solid rgba(184,132,30,.3);padding:1rem 1.3rem;font-size:.78rem;color:var(--gold2);margin-bottom:1.5rem;line-height:1.5}
+.adm-section-label{font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold2);opacity:.7;margin:2rem 0 1rem;display:block}
+
+
+/* ═══════════════════════════════════════
+   MOBILE NAVIGATION
+═══════════════════════════════════════ */
+.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.4rem;z-index:301}
+.hamburger span{display:block;width:22px;height:1.5px;background:currentColor;transition:all .3s;transform-origin:center}
+.hamburger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.hamburger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.mobile-nav-overlay{display:none;position:fixed;inset:0;top:56px;background:rgba(15,13,10,.97);z-index:299;flex-direction:column;padding:2rem 1.5rem;overflow-y:auto}
+.mobile-nav-overlay.open{display:flex}
+.mobile-nav-overlay a{font-size:1.4rem;font-family:var(--ff-d);font-weight:300;font-style:italic;color:rgba(250,249,247,.7);text-decoration:none;padding:1rem 0;border-bottom:.5px solid rgba(250,249,247,.07);transition:color .2s}
+.mobile-nav-overlay a:hover,.mobile-nav-overlay a:active{color:var(--gold2)}
+.mobile-nav-cta{color:var(--gold2)!important;border-color:rgba(184,132,30,.3)!important}
+.btn-info{background:var(--gold);border-color:var(--gold);color:var(--ink)!important}
+.btn-info:hover{background:var(--gold2);border-color:var(--gold2)}
+
+/* ═══════════════════════════════════════
+   AI CHATBOT WIDGET
+═══════════════════════════════════════ */
+
+.chat-header{background:#1A1714;padding:.9rem 1.2rem;display:flex;align-items:center;justify-content:space-between;border-bottom:.5px solid rgba(250,249,247,.08)}
+.chat-header-left{display:flex;align-items:center;gap:.6rem}
+.chat-avatar{width:28px;height:28px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;font-family:var(--ff-d);font-size:.75rem;font-style:italic;color:var(--ink);font-weight:600}
+.chat-header-info p{font-size:.72rem;font-weight:400;letter-spacing:.05em;color:#FAF9F7}
+.chat-header-info span{font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);opacity:.7}
+.chat-close{background:none;border:none;color:rgba(250,249,247,.3);cursor:pointer;font-size:1rem;line-height:1;padding:.2rem;transition:color .2s}
+.chat-close:hover{color:rgba(250,249,247,.8)}
+.chat-messages{flex:1;overflow-y:auto;padding:1rem;display:flex;flex-direction:column;gap:.75rem;min-height:220px;max-height:320px;scroll-behavior:smooth}
+.chat-messages::-webkit-scrollbar{width:3px}
+.chat-messages::-webkit-scrollbar-track{background:transparent}
+.chat-messages::-webkit-scrollbar-thumb{background:rgba(250,249,247,.15);border-radius:2px}
+.msg{max-width:85%;padding:.65rem .9rem;border-radius:4px;font-size:.8rem;line-height:1.6;animation:msgIn .2s ease}
+@keyframes msgIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.msg-bot{background:rgba(250,249,247,.07);color:rgba(250,249,247,.8);align-self:flex-start;border-bottom-left-radius:1px}
+.msg-user{background:var(--blue);color:rgba(250,249,247,.9);align-self:flex-end;border-bottom-right-radius:1px}
+.msg-typing{display:flex;gap:4px;padding:.65rem .9rem;background:rgba(250,249,247,.05);border-radius:4px;width:fit-content}
+.msg-typing span{width:6px;height:6px;background:rgba(250,249,247,.3);border-radius:50%;animation:typing 1.2s infinite}
+.msg-typing span:nth-child(2){animation-delay:.2s}
+.msg-typing span:nth-child(3){animation-delay:.4s}
+@keyframes typing{0%,60%,100%{transform:translateY(0);opacity:.3}30%{transform:translateY(-5px);opacity:.8}}
+.chat-input-area{padding:.8rem;border-top:.5px solid rgba(250,249,247,.07);display:flex;gap:.6rem}
+.chat-input{flex:1;background:rgba(250,249,247,.06);border:.5px solid rgba(250,249,247,.1);color:#FAF9F7;font-family:var(--ff-b);font-size:.78rem;font-weight:300;padding:.6rem .9rem;outline:none;border-radius:3px;transition:border-color .2s}
+.chat-input:focus{border-color:rgba(250,249,247,.3)}
+.chat-input::placeholder{color:rgba(250,249,247,.2);font-size:.73rem}
+.chat-send{background:var(--blue);border:none;color:#FAF9F7;padding:.6rem .9rem;cursor:pointer;border-radius:3px;transition:background .2s;display:flex;align-items:center}
+.chat-send:hover{background:var(--blue-light,#3E6B9F)}
+.chat-send svg{width:14px;height:14px;fill:currentColor}
+.chat-suggestions{padding:0 1rem .8rem;display:flex;gap:.4rem;flex-wrap:wrap}
+.chat-suggestion{font-size:.65rem;letter-spacing:.05em;padding:.3rem .7rem;border:.5px solid rgba(250,249,247,.15);color:rgba(250,249,247,.5);cursor:pointer;border-radius:20px;transition:all .2s;background:none}
+.chat-suggestion:hover{border-color:var(--gold);color:var(--gold2)}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE — TABLET (≤1024px)
+═══════════════════════════════════════ */
+@media(max-width:1024px){
+  .nav-inner{padding:0 2rem}
+  .nav-links{gap:1.5rem}
+  .hero-content{padding:0 2rem 4rem}
+  .artist-inner{gap:4rem}
+  .about-in{grid-template-columns:1fr;gap:3rem}
+  .yt-grid{grid-template-columns:repeat(2,1fr)}
+  .fb-grid{grid-template-columns:repeat(3,1fr)}
+  .series-grid{grid-template-columns:repeat(2,1fr)}
+  .adm-stats{grid-template-columns:repeat(2,1fr)}
+  .video-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE — MOBILE (≤768px)
+═══════════════════════════════════════ */
+@media(max-width:768px){
+  /* NAV */
+  .nav-links{display:none!important}
+  .hamburger{display:flex}
+  .nav-inner{height:56px;padding:0 1rem}
+  .nav-brand span{font-size:1rem}
+  .nav-logo-icon{width:22px;height:22px}
+
+  /* HERO */
+  section.hero{min-height:100svh}
+  .hero-content{padding:0 1.2rem 4rem}
+  .hero-name{font-size:clamp(44px,14vw,72px)}
+  .hero-tagline{font-size:14px;margin-bottom:1.5rem}
+  .hero-quote{font-size:15px;margin-bottom:2rem}
+  .hero-ctas{flex-direction:column;align-items:flex-start;gap:.7rem}
+  .btn-ghost{width:100%;text-align:center;padding:.85rem 1.5rem}
+  .hero-scroll{bottom:1.5rem;right:1.2rem}
+
+  /* INTRO BAND */
+  .intro-band{padding:2rem 1.2rem;gap:1.5rem;display:grid;grid-template-columns:1fr 1fr}
+  .ib-sep{display:none}
+  .ib-num{font-size:2.2rem}
+
+  /* MOSTRA HEADER */
+  .mostra-header{padding:3rem 1.2rem 2rem;flex-direction:column;gap:1rem}
+  .mh-right{text-align:left}
+  .mh-count{font-size:2.5rem}
+
+  /* SERIES NAV */
+  .series-nav{padding:1.2rem;gap:0;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .sn-item{padding:.5rem 1rem;font-size:.58rem}
+
+  /* SERIES SECTIONS */
+  .sh-inner{padding:1.5rem 1.2rem;gap:1rem;flex-wrap:wrap}
+  .sh-num{font-size:2.5rem;width:40px}
+  .sh-title{font-size:1.3rem}
+  .sh-desc{font-size:.76rem}
+  .sh-count{display:none}
+  section.series-section{padding:0 0 3rem}
+  .works-grid{grid-template-columns:1fr 1fr;padding:1.2rem;gap:.9rem}
+  .work-thumb img{height:160px}
+  .wi-title{font-size:.88rem}
+  .wi-tech{font-size:.64rem}
+
+  /* STRIP */
+  .strip{padding:1.8rem 1.2rem;gap:1.5rem;display:grid;grid-template-columns:1fr 1fr}
+  .strip-sep{display:none}
+  .strip-num{font-size:2.2rem}
+
+  /* ARTIST */
+  .artist-section{padding:4rem 1.2rem}
+  .artist-inner{grid-template-columns:1fr;gap:2.5rem}
+  .ai-portrait{aspect-ratio:4/3;object-position:center 15%}
+  .ai-caption{font-size:1.4rem;padding:.8rem 1rem;bottom:-.9rem;right:-.8rem}
+  .ai-name{font-size:2rem}
+  .ai-bio,.about-p{font-size:.85rem}
+  .ai-quote{font-size:1.1rem}
+
+  /* CRITICA */
+  .critica-section{padding:4rem 1.2rem}
+  .cs-body{column-count:1}
+  .cs-pull{font-size:1.1rem}
+  .cs-iorio{padding:1.2rem}
+
+  /* TIMELINE */
+  .timeline-section{padding:4rem 1.2rem}
+  .tl-item{grid-template-columns:60px 1fr;gap:1rem}
+  .tl-year{font-size:1.6rem}
+  .tl-mostra{font-size:.92rem}
+
+  /* MEDIA */
+  .media-section{padding:4rem 1.2rem}
+  .ms-tabs{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .ms-tab{white-space:nowrap;padding:.6rem 1rem;font-size:.58rem}
+  .yt-grid{grid-template-columns:1fr}
+  .fb-grid{grid-template-columns:1fr 1fr}
+  .video-grid{grid-template-columns:1fr}
+
+  /* SERIES CARDS */
+  .series-section .series-grid{grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1.5rem}
+  section#serie .series-grid{grid-template-columns:1fr 1fr}
+
+  /* CONTACT */
+  .contact-section{padding:4rem 1.2rem}
+  .ci-h{font-size:2.2rem}
+  .cf-row{grid-template-columns:1fr}
+  .ci-direct{flex-direction:column;gap:1rem}
+
+  /* FOOTER */
+  footer{padding:1.2rem;flex-direction:column;gap:.8rem;text-align:center}
+  .fr{justify-content:center}
+
+  /* MODAL - full screen */
+  .modal{flex-direction:column}
+  .modal-left{flex:none;height:55vh;min-height:0}
+  .modal-right{width:100%;height:45vh;overflow-y:auto;padding:1.5rem}
+  .mr-close{top:.8rem;right:.8rem;font-size:1.5rem;background:rgba(15,13,10,.6);width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:50%}
+  .mr-title{font-size:1.3rem}
+  .mr-desc{font-size:.8rem}
+
+
+
+  /* ADMIN */
+  .admin-dash{flex-direction:column}
+  .adm-sidebar{width:100%;height:auto;flex-direction:row;flex-wrap:wrap;padding:1rem;gap:.4rem}
+  .adm-brand{display:none}
+  .adm-nav{flex-direction:row;flex-wrap:wrap}
+  .adm-nav-item{font-size:.55rem;padding:.5rem .7rem}
+  .adm-logout{margin-top:0}
+  .adm-main{padding:1.5rem}
+  .adm-stats{grid-template-columns:repeat(2,1fr);gap:.8rem}
+  .adm-form{grid-template-columns:1fr}
+  .adm-form-full{grid-column:1}
+  .admin-login-box{width:90%;max-width:360px;padding:2rem}
+}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE — SMALL MOBILE (≤400px)
+═══════════════════════════════════════ */
+@media(max-width:400px){
+  .works-grid{grid-template-columns:1fr}
+  .fb-grid{grid-template-columns:1fr}
+  .series-grid{grid-template-columns:1fr}
+  .hero-name{font-size:13vw}
+  .strip{grid-template-columns:1fr 1fr}
+  .intro-band{grid-template-columns:1fr 1fr}
+  .yt-grid{grid-template-columns:1fr}
+}
+
+
+/* ──────────── RESTYLING 2026 · griglia, ritmo, micro-interazioni ──────────── */
+:root{--ease:cubic-bezier(.22,.61,.36,1);--card-shadow:0 18px 40px -24px rgba(26,23,20,.45)}
+
+/* Titolazione dei cicli più rifinita */
+.series-section{padding:0 0 6.5rem}
+.sh-inner{padding:3.25rem 3rem;gap:2rem;align-items:flex-end}
+.sh-num{width:74px;font-size:4.6rem;opacity:.22;letter-spacing:-.02em}
+.sh-title{font-size:clamp(24px,3.6vw,40px);letter-spacing:.005em;line-height:1.05;margin-bottom:.5rem;position:relative;padding-bottom:.55rem}
+.sh-title::after{content:"";position:absolute;left:0;bottom:0;width:44px;height:1px;background:var(--sc);opacity:.55;transition:width .5s var(--ease)}
+.series-header:hover .sh-title::after{width:96px}
+.sh-desc{max-width:62ch;line-height:1.65}
+.sh-count{align-self:flex-end;padding:.4rem 1rem;letter-spacing:.18em;border-radius:2px}
+
+/* Griglia gallerie: colonne coerenti, schede allineate */
+.works-grid{padding:3.25rem 3rem 0;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:2.75rem 2.25rem;align-items:stretch}
+.work-card{display:flex;flex-direction:column;height:100%;border-radius:3px;
+  transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
+.work-card:hover,.work-card:focus-visible{transform:translateY(-8px);box-shadow:var(--card-shadow)}
+.work-thumb{border-radius:3px 3px 0 0;aspect-ratio:4/3;background:var(--bg3)}
+.work-thumb img{height:100%;aspect-ratio:4/3;transition:transform .7s var(--ease),filter .45s var(--ease)}
+.work-card:hover .work-thumb img{transform:scale(1.055)}
+.work-overlay{background:linear-gradient(to top,rgba(26,23,20,0),rgba(26,23,20,0));transition:background .45s var(--ease)}
+.work-card:hover .work-overlay{background:linear-gradient(to top,rgba(26,23,20,.55),rgba(26,23,20,.18))}
+.wo-zoom{transform:translateY(8px);border-radius:2px;backdrop-filter:blur(2px);
+  transition:opacity .35s var(--ease),transform .35s var(--ease),background .3s var(--ease),color .3s var(--ease)}
+.work-card:hover .wo-zoom{opacity:1;transform:translateY(0)}
+.wo-zoom:hover{background:#FAF9F7;color:var(--ink)}
+.work-info{display:flex;flex-direction:column;gap:.28rem;padding:1.05rem .1rem 0;flex:1 0 auto;
+  border-top:.5px solid var(--border2);margin-top:.9rem}
+.wi-title{font-size:1.06rem;margin-bottom:0;min-height:2.5em;display:flex;align-items:flex-start}
+.wi-tech{line-height:1.45}
+.wi-year{margin-top:auto;padding-top:.35rem;font-variant-numeric:tabular-nums}
+
+/* Bottoni e link: transizioni eleganti */
+.cf-btn{border-radius:2px;transition:transform .3s var(--ease),opacity .3s var(--ease),letter-spacing .3s var(--ease),box-shadow .3s var(--ease)}
+.cf-btn:hover{opacity:1;transform:translateY(-2px);letter-spacing:.26em;box-shadow:0 12px 24px -14px rgba(184,132,30,.9)}
+.cf-btn:active{transform:translateY(0)}
+.ci-lk{transition:color .3s var(--ease),transform .3s var(--ease)}
+.ci-lk:hover{transform:translateX(2px)}
+footer{flex-wrap:wrap;gap:.75rem 2rem;padding:2rem 3rem}
+footer .fl a{text-decoration:none;transition:opacity .25s var(--ease)}
+
+/* Presenza online */
+.online{color:rgba(250,249,247,.75);text-align:center;margin-top:2.6rem;padding-top:1.8rem;border-top:.5px solid rgba(250,249,247,.1)}
+.online-label{font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;opacity:.5;margin-bottom:1.1rem;display:block}
+.online-links{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center}
+.ol{display:inline-flex;align-items:center;gap:.55rem;padding:.6rem 1.1rem;border:.5px solid currentColor;border-radius:2px;
+  font-size:.63rem;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;color:inherit;opacity:.75;
+  transition:opacity .3s var(--ease),transform .3s var(--ease),background .3s var(--ease)}
+.ol svg{width:14px;height:14px;flex-shrink:0}
+.ol:hover{opacity:1;transform:translateY(-2px);background:rgba(250,249,247,.06)}
+footer .fr .ol{color:inherit;padding:.35rem .7rem;font-size:.58rem}
+@media (max-width:560px){.online-links{flex-direction:column}.ol{justify-content:center}}
+
+
+@media (max-width:900px){
+  .sh-inner{padding:2.5rem 1.5rem;gap:1.25rem;flex-wrap:wrap;align-items:flex-start}
+  .sh-num{width:auto;font-size:3rem}
+  .sh-count{align-self:flex-start}
+  .works-grid{padding:2.25rem 1.5rem 0;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:2rem 1.25rem}
+  .series-section{padding-bottom:4rem}
+  footer{padding:1.5rem}
+}
+@media (max-width:560px){
+  .works-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1.5rem 1rem}
+  .wi-title{font-size:.95rem;min-height:0}
+  .work-card:hover{transform:none;box-shadow:none}
+}
+@media (prefers-reduced-motion:reduce){
+  .work-card,.work-thumb img,.wo-zoom,.cf-btn{transition:none!important}
+}
+
+
+/* ──────────── PRIVACY / COOKIE UI ──────────── */
+.cf-privacy{display:flex;align-items:flex-start;gap:.75rem;text-align:left;margin:.45rem 0 .15rem;padding:.85rem 1rem;border:.5px solid rgba(250,249,247,.16);background:rgba(250,249,247,.045);color:rgba(250,249,247,.78);font-size:.76rem;line-height:1.55}
+.cf-privacy input[type="checkbox"]{flex:0 0 auto;width:17px;height:17px;margin-top:.12rem;accent-color:var(--gold2);cursor:pointer}
+.cf-privacy span{color:rgba(250,249,247,.78)}
+.cf-privacy a{color:var(--gold2);font-weight:500;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:.7px}
+.cf-privacy a:hover{color:#fff}
+.legal-note{margin-top:.5rem;color:rgba(250,249,247,.48);font-size:.68rem;line-height:1.55;text-align:left}
+.privacy-popup{position:fixed;inset:0;z-index:1800;display:none;align-items:flex-end;justify-content:center;padding:1.25rem;background:rgba(15,13,10,.52);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+.privacy-popup.open{display:flex}
+.privacy-popup-card{position:relative;width:min(720px,100%);background:#FAFAF8;color:var(--ink);border:1px solid rgba(26,23,20,.12);box-shadow:0 22px 70px rgba(0,0,0,.28);padding:1.6rem 1.7rem 1.45rem}
+.privacy-popup-kicker{display:block;margin-bottom:.55rem;font-size:.58rem;letter-spacing:.19em;text-transform:uppercase;color:var(--gold);font-weight:500}
+.privacy-popup-title{font-family:var(--ff-d);font-size:1.65rem;font-weight:400;line-height:1.08;margin:0 2.5rem .55rem 0;color:var(--ink)}
+.privacy-popup-text{font-size:.79rem;line-height:1.65;color:rgba(26,23,20,.72);max-width:620px}
+.privacy-popup-actions{display:flex;align-items:center;gap:.7rem;flex-wrap:wrap;margin-top:1.15rem}
+.privacy-popup-link,.privacy-popup-ok{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:.65rem 1rem;font-family:var(--ff-b);font-size:.62rem;font-weight:500;letter-spacing:.11em;text-transform:uppercase;text-decoration:none;cursor:pointer}
+.privacy-popup-link{border:1px solid rgba(26,23,20,.18);background:transparent;color:var(--ink)}
+.privacy-popup-link:hover{border-color:var(--gold);color:var(--gold)}
+.privacy-popup-ok{margin-left:auto;border:1px solid var(--gold);background:var(--gold);color:var(--ink)}
+.privacy-popup-ok:hover{background:var(--gold2);border-color:var(--gold2)}
+.privacy-popup-close{position:absolute;right:.9rem;top:.75rem;border:0;background:none;color:rgba(26,23,20,.48);font-size:1.45rem;line-height:1;cursor:pointer;padding:.3rem}
+.privacy-popup-close:hover{color:var(--ink)}
+.privacy-reopen{appearance:none;border:0;background:none;padding:0;font:inherit;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,249,247,.2);cursor:pointer;transition:color .2s}
+.privacy-reopen:hover{color:rgba(250,249,247,.65)}
+@media(max-width:620px){.privacy-popup{padding:.65rem}.privacy-popup-card{padding:1.35rem 1.1rem 1.1rem}.privacy-popup-title{font-size:1.4rem}.privacy-popup-text{font-size:.75rem}.privacy-popup-actions{align-items:stretch}.privacy-popup-link,.privacy-popup-ok{width:100%;margin-left:0}.cf-privacy{font-size:.72rem}}
+</style>
+<style id="cms-gate-style">
+html:not([data-cms-connected="true"]) #mostra,
+html:not([data-cms-connected="true"]) #mostre,
+html:not([data-cms-connected="true"]) #critica,
+html:not([data-cms-connected="true"]) #ms-yt { visibility:hidden; }
+
+/* Audit fix: readable critical cards */
+.cs-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}.cs-card{background:var(--bg2);padding:2rem;border-left:2px solid var(--gold)}.cs-card .cs-pull{margin-bottom:1.5rem}.cs-card .cs-body{font-size:.84rem;line-height:1.85}.cf-btn:disabled{opacity:.55;cursor:wait}
+@media(max-width:768px){.hero-bg-img{object-position:18% center;filter:brightness(.38) saturate(.86)}.hero{min-height:100svh}.hero-gradient{background:linear-gradient(to top,rgba(26,23,20,.82) 0%,rgba(26,23,20,.18) 55%,rgba(26,23,20,.04) 100%)}.series-nav{top:56px;padding:1rem .8rem}.sn-item{padding:.5rem .85rem}.sn-item:first-child{padding-left:.15rem}.cs-grid{grid-template-columns:1fr!important}.cs-card{padding:1.4rem!important}}
+</style>
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand"><svg class="nav-logo-icon" viewBox="0 0 28 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <!-- Pencil body (vertical, pointing down) -->
+  <rect x="7" y="4" width="14" height="22" fill="currentColor" rx=".5"/>
+  <!-- Pencil wooden tip -->
+  <polygon points="7,26 21,26 14,33" fill="#B8841E"/>
+  <!-- Wood shading -->
+  <polygon points="7,26 14,26 14,33" fill="currentColor" opacity=".25"/>
+  <!-- Eraser top -->
+  <rect x="7" y="2" width="14" height="4" fill="#B8841E" opacity=".75" rx=".5"/>
+  <!-- Metal band -->
+  <rect x="7" y="5.5" width="14" height="2" fill="#B8841E" opacity=".3"/>
+  <!-- Tiny city silhouette on pencil body -->
+  <!-- Tower/campanile -->
+  <rect x="10" y="9" width="3.5" height="8" fill="rgba(0,0,0,0.0)" stroke="none"/>
+  <rect x="10" y="9" width="3.5" height="8" style="fill:var(--bg,#FAFAF8);opacity:.85"/>
+  <!-- Tower cross -->
+  <rect x="11.25" y="7.5" width="1" height="2.5" style="fill:var(--bg,#FAFAF8);opacity:.85"/>
+  <rect x="10.5" y="8.3" width="2.5" height="1" style="fill:var(--bg,#FAFAF8);opacity:.85"/>
+  <!-- House 1 -->
+  <rect x="14.5" y="12" width="4.5" height="5" style="fill:var(--bg,#FAFAF8);opacity:.85"/>
+  <polygon points="14.5,12 19,12 16.75,10" style="fill:var(--bg,#FAFAF8);opacity:.85"/>
+  <!-- House 2 small -->
+  <rect x="9" y="14.5" width="3" height="2.5" style="fill:var(--bg,#FAFAF8);opacity:.6"/>
+  <polygon points="9,14.5 12,14.5 10.5,13.2" style="fill:var(--bg,#FAFAF8);opacity:.6"/>
+</svg><span>Stefano <em>Alisi</em></span></a>
+    <ul class="nav-links">
+      <li><a href="#mostra">Mostra</a></li>
+      <li><a href="#artista">Artista</a></li>
+      <li><a href="#critica">Critica</a></li>
+      <li><a href="#mostre">Mostre</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#contatto" class="nav-enter">Contatto</a></li>
+    </ul>
+  <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<nav class="mobile-nav-overlay" id="mobileNav">
+  <a href="#mostra" onclick="closeMobileNav()">Mostra</a>
+  <a href="#artista" onclick="closeMobileNav()">Artista</a>
+  <a href="#critica" onclick="closeMobileNav()">Critica</a>
+  <a href="#mostre" onclick="closeMobileNav()">Mostre</a>
+  <a href="#video" onclick="closeMobileNav()">Video</a>
+  <a href="#contatto" onclick="closeMobileNav()" class="mobile-nav-cta">Richiedi Info</a>
+</nav>
+
+
+<!-- ══ HERO ══ -->
+<section class="hero" id="top">
+  <div class="hero-bg-wrap">
+    <img class="hero-bg-img" id="cms-copertina" src="/opere/t0.jpg" alt="Stefano Alisi, pittore contemporaneo italiano">
+    <div class="hero-gradient"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow" id="cms-sottotitolo">Mostra temporanea · Roma, 1964</p>
+    <h1 class="hero-name" id="cms-titolo">Stefano<em>Alisi</em></h1>
+    <p class="hero-tagline" id="cms-descrizione">Pittore contemporaneo italiano — Surrealismo poetico, natura, simbolo, visione</p>
+
+    <div class="hero-ctas">
+      <a href="#mostra" class="btn-ghost">Entra nella mostra</a>
+      <a href="#contatto" class="btn-ghost btn-info">Richiedi Info</a>
+    </div>
+  </div>
+  <a href="#mostra" class="hero-scroll">
+    <span class="hs-label">Scorri</span>
+    <span class="hs-line"></span>
+  </a>
+</section>
+
+<!-- ══ INTRO BAND ══ -->
+<div class="intro-band">
+  <div class="ib-item"><span class="ib-num" id="stat-works">0</span><span class="ib-label">Opere esposte</span></div>
+  <div class="ib-sep"></div>
+  <div class="ib-item"><span class="ib-num" id="stat-series">0</span><span class="ib-label">Cicli artistici</span></div>
+  <div class="ib-sep"></div>
+  <div class="ib-item"><span class="ib-num" id="stat-exhibitions">0</span><span class="ib-label">Esposizioni</span></div>
+  <div class="ib-sep"></div>
+  <div class="ib-item"><span class="ib-num">2007</span><span class="ib-label">Prima mostra</span></div>
+</div>
+
+<!-- ══ MOSTRA HEADER ══ -->
+<div id="mostra">
+  <div class="mostra-header">
+    <div class="mh-left">
+      <span class="mh-label">Mostra temporanea</span>
+      <h2 class="mh-title">Tutte le opere</h2>
+      <p class="mh-sub">Scopri le opere di Stefano Alisi: acquarelli, oli, grafite e china organizzati per cicli tematici. La ricerca del pittore contemporaneo italiano attraversa natura, simbolo e surrealismo poetico. Clicca su qualsiasi opera per aprire la scheda completa con immagine HD e descrizione critica.</p>
+    </div>
+    <div class="mh-right">
+      <p class="mh-count">66</p>
+      <p class="mh-count-label">opere in mostra</p>
+    </div>
+  </div>
+  <nav class="series-nav" aria-label="Cicli artistici">
+    <a href="#serie-pinocchio" class="sn-item">I — Pinocchio</a>
+    <a href="#serie-piazze-e-visioni" class="sn-item">II — Piazze e Visioni</a>
+    <a href="#serie-natura-e-simbolo" class="sn-item">III — Natura e Simbolo</a>
+    <a href="#serie-visioni-oniriche" class="sn-item">IV — Visioni Oniriche</a>
+    <a href="#serie-le-matite" class="sn-item">V — Le Matite</a>
+    <a href="#serie-camicie" class="sn-item">VI — Camicie</a>
+    <a href="#serie-nature-morte" class="sn-item">VII — Nature morte</a>
+    <a href="#serie-altre-visioni" class="sn-item">VIII — Altre visioni</a>
+  </nav>
+
+  <section class="series-section" id="serie-pinocchio">
+    <div class="series-header" style="--sc:#B5522A">
+      <div class="sh-inner">
+        <span class="sh-num">I</span>
+        <div class="sh-text">
+          <h2 class="sh-title">Pinocchio</h2>
+          <p class="sh-desc">Le nuove avventure del celebre burattino — il naso diventa matita, la bugia diventa creazione, il giocattolo diventa simbolo della tensione tra desiderio e coscienza.</p>
+        </div>
+        <span class="sh-count">7 opere</span>
+      </div>
+    </div>
+    <div class="works-grid">
+<div class="work-card" data-idx="0" onclick="openWork(0)">
+      <div class="work-thumb"><img src="/opere/t1.jpg" alt="La tentazione di Pinocchio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">La tentazione di Pinocchio</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×30 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="1" onclick="openWork(1)">
+      <div class="work-thumb"><img src="/opere/t2.jpg" alt="Pinocchio e la nostalgia del circo" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Pinocchio e la nostalgia del circo</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×30 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="2" onclick="openWork(2)">
+      <div class="work-thumb"><img src="/opere/t3.jpg" alt="Notturno Pinocchio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Notturno Pinocchio</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×30 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="3" onclick="openWork(3)">
+      <div class="work-thumb"><img src="/opere/t4.jpg" alt="L'ultima bugia di Pinocchio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">L'ultima bugia di Pinocchio</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×30 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="4" onclick="openWork(4)">
+      <div class="work-thumb"><img src="/opere/t5.jpg" alt="Pinocchio alle Mille Miglia" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Pinocchio alle Mille Miglia</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×30 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="5" onclick="openWork(5)">
+      <div class="work-thumb"><img src="/opere/t6.jpg" alt="L'ebbrezza di Pinocchio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">L'ebbrezza di Pinocchio</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×30 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="65" onclick="openWork(65)">
+      <div class="work-thumb"><img src="/opere/picchiopinocchio.jpg" alt="PicchioPinocchio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">PicchioPinocchio</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×30 cm</span></p>
+        <p class="wi-year">2026</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="series-section" id="serie-piazze-e-visioni">
+    <div class="series-header" style="--sc:#294D78">
+      <div class="sh-inner">
+        <span class="sh-num">II</span>
+        <div class="sh-text">
+          <h2 class="sh-title">Piazze e Visioni</h2>
+          <p class="sh-desc">Piazze italiane idealizzate, borghi sospesi, circhi e architetture impossibili — la vita quotidiana trasfigurata in scena teatrale e poetica.</p>
+        </div>
+        <span class="sh-count">13 opere</span>
+      </div>
+    </div>
+    <div class="works-grid">
+<div class="work-card" data-idx="6" onclick="openWork(6)">
+      <div class="work-thumb"><img src="/opere/t7.jpg" alt="Quartiere operaio — acquarello" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Quartiere operaio — acquarello</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 45×30 cm</span></p>
+        <p class="wi-year">2017</p>
+      </div>
+    </div><div class="work-card" data-idx="7" onclick="openWork(7)">
+      <div class="work-thumb"><img src="/opere/t8.jpg" alt="La Primavera che avanza" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">La Primavera che avanza</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 50×40 cm</span></p>
+        <p class="wi-year">2020</p>
+      </div>
+    </div><div class="work-card" data-idx="8" onclick="openWork(8)">
+      <div class="work-thumb"><img src="/opere/t9.jpg" alt="Quartiere operaio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Quartiere operaio</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×50 cm</span></p>
+        <p class="wi-year">2021</p>
+      </div>
+    </div><div class="work-card" data-idx="9" onclick="openWork(9)">
+      <div class="work-thumb"><img src="/opere/t10.jpg" alt="Nevicata improvvisa" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Nevicata improvvisa</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 50×40 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="10" onclick="openWork(10)">
+      <div class="work-thumb"><img src="/opere/t11.jpg" alt="Controvento" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Controvento</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×50 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="11" onclick="openWork(11)">
+      <div class="work-thumb"><img src="/opere/t12.jpg" alt="L'arrivo del circo" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">L'arrivo del circo</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 50×50 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="12" onclick="openWork(12)">
+      <div class="work-thumb"><img src="/opere/t13.jpg" alt="Il cavallo di Leonardo e la ricerca della bellezza" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Il cavallo di Leonardo e la ricerca della bellezza</p>
+        <p class="wi-tech">Olio su tavola<span class="wi-dims"> — 40×40 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="13" onclick="openWork(13)">
+      <div class="work-thumb"><img src="/opere/t14.jpg" alt="Apuliae reveries" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Apuliae reveries</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 50×40 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="14" onclick="openWork(14)">
+      <div class="work-thumb"><img src="/opere/t15.jpg" alt="Miracolo in piazza" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Miracolo in piazza</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×40 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="15" onclick="openWork(15)">
+      <div class="work-thumb"><img src="/opere/t16.jpg" alt="Un circo in piazza" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Un circo in piazza</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×50 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="16" onclick="openWork(16)">
+      <div class="work-thumb"><img src="/opere/t17.jpg" alt="Perdersi per ritrovarsi" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Perdersi per ritrovarsi</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 50×60 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="17" onclick="openWork(17)">
+      <div class="work-thumb"><img src="/opere/t18.jpg" alt="La Periferia del Possibile" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">La Periferia del Possibile</p>
+        <p class="wi-tech">Olio su tavola<span class="wi-dims"> — 60×50 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="18" onclick="openWork(18)">
+      <div class="work-thumb"><img src="/opere/t19.jpg" alt="L'ambulante dei balocchi" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">L'ambulante dei balocchi</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×50 cm</span></p>
+        <p class="wi-year">2026</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="series-section" id="serie-natura-e-simbolo">
+    <div class="series-header" style="--sc:#4A7A52">
+      <div class="sh-inner">
+        <span class="sh-num">III</span>
+        <div class="sh-text">
+          <h2 class="sh-title">Natura e Simbolo</h2>
+          <p class="sh-desc">Borghi, animali e elementi vegetali si intrecciano in simbologie surrealiste, dove la natura e l'insediamento umano diventano un'unica entità da decifrare.</p>
+        </div>
+        <span class="sh-count">16 opere</span>
+      </div>
+    </div>
+    <div class="works-grid">
+<div class="work-card" data-idx="19" onclick="openWork(19)">
+      <div class="work-thumb"><img src="/opere/t20.jpg" alt="L'angustia della locusta" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">L'angustia della locusta</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 32×50 cm</span></p>
+        <p class="wi-year">2020</p>
+      </div>
+    </div><div class="work-card" data-idx="20" onclick="openWork(20)">
+      <div class="work-thumb"><img src="/opere/t21.jpg" alt="Per gioco, per davvero" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Per gioco, per davvero</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 56×20 cm</span></p>
+        <p class="wi-year">2021</p>
+      </div>
+    </div><div class="work-card" data-idx="21" onclick="openWork(21)">
+      <div class="work-thumb"><img src="/opere/t22.jpg" alt="Arcipelago" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Arcipelago</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 40×40 cm</span></p>
+        <p class="wi-year">2021</p>
+      </div>
+    </div><div class="work-card" data-idx="22" onclick="openWork(22)">
+      <div class="work-thumb"><img src="/opere/t23.jpg" alt="Lo specchiarsi dei narcisi" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Lo specchiarsi dei narcisi</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 32×50 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="23" onclick="openWork(23)">
+      <div class="work-thumb"><img src="/opere/t24.jpg" alt="Il volto del desiderio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Il volto del desiderio</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 24×34 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="24" onclick="openWork(24)">
+      <div class="work-thumb"><img src="/opere/t25.jpg" alt="La tentazione della ghiandaia" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">La tentazione della ghiandaia</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 40×30 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="25" onclick="openWork(25)">
+      <div class="work-thumb"><img src="/opere/t26.jpg" alt="La zolla del tarassaco" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">La zolla del tarassaco</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 28×52 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="26" onclick="openWork(26)">
+      <div class="work-thumb"><img src="/opere/t27.jpg" alt="Basta niente" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Basta niente</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 19×56 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="27" onclick="openWork(27)">
+      <div class="work-thumb"><img src="/opere/t28.jpg" alt="Equilibrio francescano" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Equilibrio francescano</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 34×52 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="28" onclick="openWork(28)">
+      <div class="work-thumb"><img src="/opere/t29.jpg" alt="Disancoramento" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Disancoramento</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 32×50 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="29" onclick="openWork(29)">
+      <div class="work-thumb"><img src="/opere/t30.jpg" alt="Mater Mediterranea" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Mater Mediterranea</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 50×50 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="30" onclick="openWork(30)">
+      <div class="work-thumb"><img src="/opere/t31.jpg" alt="I paesi del Vattelapesca" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">I paesi del Vattelapesca</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 32×54 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="31" onclick="openWork(31)">
+      <div class="work-thumb"><img src="/opere/t32.jpg" alt="Storia di questo mondo" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Storia di questo mondo</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 36×56 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="32" onclick="openWork(32)">
+      <div class="work-thumb"><img src="/opere/t33.jpg" alt="Riflessi e riflessioni" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Riflessi e riflessioni</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 32×54 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="33" onclick="openWork(33)">
+      <div class="work-thumb"><img src="/opere/t34.jpg" alt="Niente di nuovo sotto il sole" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Niente di nuovo sotto il sole</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 50×20 cm</span></p>
+        <p class="wi-year">2026</p>
+      </div>
+    </div><div class="work-card" data-idx="34" onclick="openWork(34)">
+      <div class="work-thumb"><img src="/opere/t35.jpg" alt="Relazioni condominiali" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Relazioni condominiali</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 34×56 cm</span></p>
+        <p class="wi-year">2026</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="series-section" id="serie-visioni-oniriche">
+    <div class="series-header" style="--sc:#2A2520">
+      <div class="sh-inner">
+        <span class="sh-num">IV</span>
+        <div class="sh-text">
+          <h2 class="sh-title">Visioni Oniriche</h2>
+          <p class="sh-desc">Il pesce salvatore, le figure sacre, le composizioni dense di oggetti e memorie: la dimensione del sogno come luogo di rifugio e di verità.</p>
+        </div>
+        <span class="sh-count">11 opere</span>
+      </div>
+    </div>
+    <div class="works-grid">
+<div class="work-card" data-idx="35" onclick="openWork(35)">
+      <div class="work-thumb"><img src="/opere/t36.jpg" alt="Il dis-astro della perdita" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Il dis-astro della perdita</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 40×40 cm</span></p>
+        <p class="wi-year">2020</p>
+      </div>
+    </div><div class="work-card" data-idx="36" onclick="openWork(36)">
+      <div class="work-thumb"><img src="/opere/t37.jpg" alt="Il tempo delle scelte" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Il tempo delle scelte</p>
+        <p class="wi-tech">Olio su tavola<span class="wi-dims"> — 70×70 cm</span></p>
+        <p class="wi-year">2021</p>
+      </div>
+    </div><div class="work-card" data-idx="37" onclick="openWork(37)">
+      <div class="work-thumb"><img src="/opere/t38.jpg" alt="L'inadeguatezza del Santo" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">L'inadeguatezza del Santo</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 45×30 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="38" onclick="openWork(38)">
+      <div class="work-thumb"><img src="/opere/t39.jpg" alt="La saggezza del pesce" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">La saggezza del pesce</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×40 cm</span></p>
+        <p class="wi-year">2022</p>
+      </div>
+    </div><div class="work-card" data-idx="39" onclick="openWork(39)">
+      <div class="work-thumb"><img src="/opere/t40.jpg" alt="Vane parole" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Vane parole</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×40 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="40" onclick="openWork(40)">
+      <div class="work-thumb"><img src="/opere/t41.jpg" alt="Senza paura" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Senza paura</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×40 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="41" onclick="openWork(41)">
+      <div class="work-thumb"><img src="/opere/t42.jpg" alt="Trasferimento d'urgenza II" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Trasferimento d'urgenza II</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 50×35 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="42" onclick="openWork(42)">
+      <div class="work-thumb"><img src="/opere/t43.jpg" alt="Psychedelic Fish" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Psychedelic Fish</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×40 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="43" onclick="openWork(43)">
+      <div class="work-thumb"><img src="/opere/t44.jpg" alt="Terrazza romana" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Terrazza romana</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div><div class="work-card" data-idx="44" onclick="openWork(44)">
+      <div class="work-thumb"><img src="/opere/t45.jpg" alt="Trasferimento d'urgenza I" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Trasferimento d'urgenza I</p>
+        <p class="wi-tech">Acquarello e matita su carta<span class="wi-dims"> — 50×20 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div><div class="work-card" data-idx="45" onclick="openWork(45)">
+      <div class="work-thumb"><img src="/opere/t46.jpg" alt="Notturno montano" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Notturno montano</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 60×40 cm</span></p>
+        <p class="wi-year">2024</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="series-section" id="serie-le-matite">
+    <div class="series-header" style="--sc:#C4922A">
+      <div class="sh-inner">
+        <span class="sh-num">V</span>
+        <div class="sh-text">
+          <h2 class="sh-title">Le Matite</h2>
+          <p class="sh-desc">La serie più iconica: enormi matite colorate che sprofondano nell'acqua o riposano distese, portando sulla punta interi borghi medievali.</p>
+        </div>
+        <span class="sh-count">6 opere</span>
+      </div>
+    </div>
+    <div class="works-grid">
+<div class="work-card" data-idx="46" onclick="openWork(46)">
+      <div class="work-thumb"><img src="/opere/t47.jpg" alt="Le matite verticali — L'inabissamento del rosso" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Le matite verticali — L'inabissamento del rosso</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 40×80 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="47" onclick="openWork(47)">
+      <div class="work-thumb"><img src="/opere/t48.jpg" alt="Le matite verticali — L'inabissamento del blu" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Le matite verticali — L'inabissamento del blu</p>
+        <p class="wi-tech">Olio su tavola<span class="wi-dims"> — 40×80 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="48" onclick="openWork(48)">
+      <div class="work-thumb"><img src="/opere/t49.jpg" alt="Le matite verticali — L'inabissamento del giallo" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Le matite verticali — L'inabissamento del giallo</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 40×80 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="49" onclick="openWork(49)">
+      <div class="work-thumb"><img src="/opere/t50.jpg" alt="Il pensiero di una Staedler" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Il pensiero di una Staedler</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 50×20 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="50" onclick="openWork(50)">
+      <div class="work-thumb"><img src="/opere/t51.jpg" alt="La salvezza del blu di Delft" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">La salvezza del blu di Delft</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 50×20 cm</span></p>
+        <p class="wi-year">2025</p>
+      </div>
+    </div><div class="work-card" data-idx="51" onclick="openWork(51)">
+      <div class="work-thumb"><img src="/opere/t52.jpg" alt="Il ritorno dello storno" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Il ritorno dello storno</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 50×20 cm</span></p>
+        <p class="wi-year">2026</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="series-section" id="serie-camicie">
+    <div class="series-header" style="--sc:#8A7A6E">
+      <div class="sh-inner">
+        <span class="sh-num">VI</span>
+        <div class="sh-text">
+          <h2 class="sh-title">Camicie</h2>
+          <p class="sh-desc">La camicia come sede dell'anima — indumenti bianchi senza corpo che ospitano borghi, alberi, creature e paesaggi. Composizioni poetiche che sovrappongono umano e naturale.</p>
+        </div>
+        <span class="sh-count">7 opere</span>
+      </div>
+    </div>
+    <div class="works-grid">
+<div class="work-card" data-idx="52" onclick="openWork(52)">
+      <div class="work-thumb"><img src="/opere/t53.jpg" alt="Pausa di riflessione" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Pausa di riflessione</p>
+        <p class="wi-tech">Acquarello e china su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2007</p>
+      </div>
+    </div><div class="work-card" data-idx="53" onclick="openWork(53)">
+      <div class="work-thumb"><img src="/opere/t54.jpg" alt="Ecce homo" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Ecce homo</p>
+        <p class="wi-tech">Acquarello e china su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2008</p>
+      </div>
+    </div><div class="work-card" data-idx="54" onclick="openWork(54)">
+      <div class="work-thumb"><img src="/opere/t55.jpg" alt="Italico disagio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Italico disagio</p>
+        <p class="wi-tech">Acquarello e china su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2015</p>
+      </div>
+    </div><div class="work-card" data-idx="55" onclick="openWork(55)">
+      <div class="work-thumb"><img src="/opere/t56.jpg" alt="Visita al tempio" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Visita al tempio</p>
+        <p class="wi-tech">Acquarello e china su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2017</p>
+      </div>
+    </div><div class="work-card" data-idx="56" onclick="openWork(56)">
+      <div class="work-thumb"><img src="/opere/t57.jpg" alt="Erosioni psico geologiche" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Erosioni psico geologiche</p>
+        <p class="wi-tech">Acquarello e china su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2017</p>
+      </div>
+    </div><div class="work-card" data-idx="57" onclick="openWork(57)">
+      <div class="work-thumb"><img src="/opere/t58.jpg" alt="L'agguato del ramarro" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">L'agguato del ramarro</p>
+        <p class="wi-tech">Acquarello e china su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2017</p>
+      </div>
+    </div><div class="work-card" data-idx="58" onclick="openWork(58)">
+      <div class="work-thumb"><img src="/opere/t59.jpg" alt="Il borgo in camicia" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Il borgo in camicia</p>
+        <p class="wi-tech">Acquarello e china su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2023</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="series-section" id="serie-nature-morte">
+    <div class="series-header" style="--sc:#5C4A3A">
+      <div class="sh-inner">
+        <span class="sh-num">VII</span>
+        <div class="sh-text">
+          <h2 class="sh-title">Nature morte</h2>
+          <p class="sh-desc">Composizioni di oggetti quotidiani — vasellame, frutta, strumenti — animate da piccole creature: rane, lucertole, camaleonti. La natura morta si fa viva.</p>
+        </div>
+        <span class="sh-count">4 opere</span>
+      </div>
+    </div>
+    <div class="works-grid">
+<div class="work-card" data-idx="59" onclick="openWork(59)">
+      <div class="work-thumb"><img src="/opere/t60.jpg" alt="Insoliti accordi" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Insoliti accordi</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 56×20 cm</span></p>
+        <p class="wi-year">2019</p>
+      </div>
+    </div><div class="work-card" data-idx="60" onclick="openWork(60)">
+      <div class="work-thumb"><img src="/opere/t61.jpg" alt="Camminando in mezzo al mondo" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Camminando in mezzo al mondo</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 56×20 cm</span></p>
+        <p class="wi-year">2019</p>
+      </div>
+    </div><div class="work-card" data-idx="61" onclick="openWork(61)">
+      <div class="work-thumb"><img src="/opere/t62.jpg" alt="La trappola del pittore" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">La trappola del pittore</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 56×20 cm</span></p>
+        <p class="wi-year">2020</p>
+      </div>
+    </div><div class="work-card" data-idx="62" onclick="openWork(62)">
+      <div class="work-thumb"><img src="/opere/t63.jpg" alt="Rimanere all'asciutto" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Rimanere all'asciutto</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 56×20 cm</span></p>
+        <p class="wi-year">2021</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="series-section" id="serie-altre-visioni">
+    <div class="series-header" style="--sc:#4A4060">
+      <div class="sh-inner">
+        <span class="sh-num">VIII</span>
+        <div class="sh-text">
+          <h2 class="sh-title">Altre visioni</h2>
+          <p class="sh-desc">Opere che sfuggono a una categoria unica — visioni sospese tra serie, dove l'ambiguità è poesia.</p>
+        </div>
+        <span class="sh-count">2 opere</span>
+      </div>
+    </div>
+    <div class="works-grid">
+<div class="work-card" data-idx="63" onclick="openWork(63)">
+      <div class="work-thumb"><img src="/opere/t64.jpg" alt="Impressioni di settembre" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Impressioni di settembre</p>
+        <p class="wi-tech">Acquarello su carta<span class="wi-dims"> — 30×45 cm</span></p>
+        <p class="wi-year">2016</p>
+      </div>
+    </div><div class="work-card" data-idx="64" onclick="openWork(64)">
+      <div class="work-thumb"><img src="/opere/t65.jpg" alt="Il tempo di un caffè e una sigaretta" loading="lazy">
+        <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+      </div>
+      <div class="work-info">
+        <p class="wi-title">Il tempo di un caffè e una sigaretta</p>
+        <p class="wi-tech">Olio su tela<span class="wi-dims"> — 50×50 cm</span></p>
+        <p class="wi-year">2020</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+<!-- ══ ARTIST ══ -->
+<section class="artist-section" id="artista">
+  <div class="artist-inner">
+    <div class="ai-portrait-wrap">
+      <img class="ai-portrait" src="/opere/t66.jpg" alt="Stefano Alisi, pittore contemporaneo, nel suo studio">
+      <div class="ai-caption">Roma, 1964</div>
+    </div>
+    <div class="ai-right">
+      <span class="ai-label">Biografia</span>
+      <h2 class="ai-name">Un filosofo<br>che dipinge il sogno</h2>
+      <p class="ai-bio">Stefano Alisi è un pittore contemporaneo italiano, nato a Roma il 1 maggio 1964. Dopo gli studi classici si laurea in Filosofia, coltivando nel tempo la passione per la Storia dell'Arte — in modo speciale per l'Arte italiana del XIV e XV secolo, per i Fiamminghi del Secolo d'oro, per le Avanguardie del Primo Novecento. La sua ricerca visiva unisce acquarello, olio, grafite e china a un immaginario personale vicino al surrealismo poetico.</p>
+      <blockquote class="ai-quote">«Amante della Natura e mai pago nel cercare di svelare il mistero del rapporto tra l'uomo e le "cose", nelle sue opere si intersecano spesso paesaggio e natura morta in una sintesi problematica, ma al contempo ironica e leggera.»</blockquote>
+      <p class="ai-bio">Sin da ragazzo si cimenta nella produzione di opere utilizzando varie tecniche. Negli ultimi anni intensifica la produzione di acquarelli e opere a olio e matite su carta pregiate — sviluppando un tratto «miniaturistico» caratterizzato da una grandissima attenzione ai minimi particolari.</p>
+      <div class="ai-tags">
+        <span class="ai-tag">Laurea in Filosofia</span>
+        <span class="ai-tag">Acquarello</span>
+        <span class="ai-tag">Olio su tela</span>
+        <span class="ai-tag">Grafite e china</span>
+        <span class="ai-tag">Arte fiamminga</span>
+        <span class="ai-tag">Surrealismo poetico</span>
+        <span class="ai-tag">Miniaturismo</span>
+        <span class="ai-tag">Roma</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CRITICA ══ -->
+<section class="critica-section" id="critica">
+  <div class="cs-inner">
+    <span class="cs-label">Studio critico</span>
+    <p class="cs-pull">«Intense suggestioni si palesano nelle oniriche visioni e nei cromatismi decisi, che caratterizzano la densità del pensiero artistico di Stefano Alisi.»</p>
+    <div class="cs-body">
+      <p>Nelle sue opere si addensano simbologie surrealiste volte a raccontare — in modo quasi favolistico — degli spaccati di vita, frammenti di suggestioni, pensieri che vibrano nella resa minuziosa delle raffigurazioni.</p>
+      <p>Sono prevalentemente i simboli geometrici a dare voce al senso di lettura delle sue opere, incarnando differenti concetti nelle sfumature di colore, nei sillogismi figurativi e nelle analogie sospese nel tempo. Alisi trasporta il lettore in una dimensione spazio-temporale priva di riferimenti.</p>
+      <p>Intensa è la poetica dell'artista Alisi in cui la materia diventa astrazione, un insieme di raffigurazioni geometriche ed allegoriche che richiamano le geometrie di Paul Klee e le suggestive ricerche scientifiche di Vasilij Kandinsky, dove il dipinto diviene uno scrigno di emozioni che vanno sentite con il cuore.</p>
+      <p>Alisi consente all'osservatore di spaziare nell'interpretazione emozionale delle raffigurazioni muovendosi fra le trame dell'opera in maniera quasi incontaminata. Le figure che danno vita alla composizione aderiscono alla propria sensibilità individuale. È l'inconscio che vive mediante le suggestioni dell'artista: le tre istanze freudiane — Io, Es e Super-io — si incontrano e si scontrano in un tripudio di intense suggestioni poetiche.</p>
+    </div>
+    <p class="cs-attr">— Dott.ssa Elisabetta La Rosa, Critica d'arte</p>
+    <div class="cs-iorio">
+      <p>Il Prof. Mino Iorio — critico e storico dell'arte — presenta Alisi come un artista di notevole spessore, caratterizzato da un tratto pittorico minuzioso e quasi miniaturistico. Questo stile rievoca i paesaggi e le atmosfere di Tito Tedeschi, celebre pittore della metà del Novecento noto per la rappresentazione di piccoli borghi italiani popolati da minuscoli personaggi. In opere come «Miracolo in piazza», «Equilibrio Francescano» e «I paesi del Vattelapesca», Iorio vede la perfetta sintesi tra una tecnica raffinatissima e una visione poetica del reale.</p>
+      <cite>Prof. Mino Iorio — Critico e Storico dell'Arte · Contemporary Art Tour 2025</cite>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TIMELINE ══ -->
+<section class="timeline-section" id="mostre">
+  <div class="tl-inner">
+    <div class="tl-head">
+      <h2 class="tl-title">Esposizioni</h2>
+      <span class="tl-subtitle">Dal 2007 ad oggi</span>
+    </div>
+    <div class="tl-group">
+      <p class="tl-group-label">Mostre personali</p>
+      <div class="tl-item"><span class="tl-year">2026</span><div class="tl-info"><p class="tl-mostra">«Trasferimenti d'urgenza»</p><p class="tl-venue">Palazzo Ruspoli, Nemi</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2024</span><div class="tl-info"><p class="tl-mostra">«Un appunto all'umanocentrismo»</p><p class="tl-venue">Palazzo d'Avalos, Vasto</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2024</span><div class="tl-info"><p class="tl-mostra">«Sogni, intrighi e altri racconti»</p><p class="tl-venue">Sala espositiva "Altre vie", Roma</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2022</span><div class="tl-info"><p class="tl-mostra">«Col…mare le distanze»</p><p class="tl-venue">ArtGallery, Pescara</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2022</span><div class="tl-info"><p class="tl-mostra">«Uno sguardo sul mondo»</p><p class="tl-venue">Sala esposizioni Phoebus, Velletri</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2018</span><div class="tl-info"><p class="tl-mostra">«Incerto equilibrio»</p><p class="tl-venue">Studio Lab 138, Castel Gandolfo</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2016</span><div class="tl-info"><p class="tl-mostra">«Natura impassibile»</p><p class="tl-venue">Galleria Domus Romana, Roma</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2015</span><div class="tl-info"><p class="tl-mostra">«Natura impassibile»</p><p class="tl-venue">Museo Civico, Albano Laziale</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2015</span><div class="tl-info"><p class="tl-mostra">«Deviazioni inaspettate»</p><p class="tl-venue">Centro Arte, Castel Gandolfo</p><span class="tl-badge tb-p">Personale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2007</span><div class="tl-info"><p class="tl-mostra">«Stefano Alisi»</p><p class="tl-venue">Associazione artistica "Il girasole", Frascati</p><span class="tl-badge tb-p">Personale</span></div></div>
+    </div>
+    <div class="tl-group">
+      <p class="tl-group-label">Principali mostre collettive</p>
+      <div class="tl-item"><span class="tl-year">Dal 2023</span><div class="tl-info"><p class="tl-mostra">Contemporary Art Tour</p><p class="tl-venue">Diverse località italiane</p><span class="tl-badge tb-c">Collettiva</span></div></div>
+      <div class="tl-item"><span class="tl-year">2024</span><div class="tl-info"><p class="tl-mostra">«Donna»</p><p class="tl-venue">Scuderie Aldobrandini, Frascati</p><span class="tl-badge tb-c">Collettiva</span></div></div>
+      <div class="tl-item"><span class="tl-year">2022</span><div class="tl-info"><p class="tl-mostra">«Ecologicamente»</p><p class="tl-venue">Parghelia</p><span class="tl-badge tb-c">Collettiva</span></div></div>
+      <div class="tl-item"><span class="tl-year">2021</span><div class="tl-info"><p class="tl-mostra">«Donna»</p><p class="tl-venue">SalaNagasawa, Parco Appia Antica, Roma</p><span class="tl-badge tb-c">Collettiva</span></div></div>
+      <div class="tl-item"><span class="tl-year">2020</span><div class="tl-info"><p class="tl-mostra">«Bateau Tiberis»</p><p class="tl-venue">Battello Gilda, Roma</p><span class="tl-badge tb-c">Collettiva</span></div></div>
+      <div class="tl-item"><span class="tl-year">2018</span><div class="tl-info"><p class="tl-mostra">«Mater Mediterranea»</p><p class="tl-venue">Grande Moschea di Roma</p><span class="tl-badge tb-c">Collettiva</span></div></div>
+      <div class="tl-item"><span class="tl-year">2015</span><div class="tl-info"><p class="tl-mostra">«ArtExpo Barcellona 2»</p><p class="tl-venue">Barcellona, Spagna</p><span class="tl-badge tb-i">Internazionale</span></div></div>
+      <div class="tl-item"><span class="tl-year">2010</span><div class="tl-info"><p class="tl-mostra">I Biennale Internazionale Città di Lecce</p><p class="tl-venue">Lecce</p><span class="tl-badge tb-i">Biennale</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MEDIA ══ -->
+<section class="media-section" id="video">
+  <div class="ms-inner">
+    <div class="ms-head">
+      <h2 class="ms-title">Media, interviste &amp; rassegna stampa</h2>
+    </div>
+    <div class="ms-tabs">
+      <button class="ms-tab active" onclick="msTab(this,'yt')">▶ Video YouTube</button>
+      <button class="ms-tab" onclick="msTab(this,'fb')">Facebook</button>
+      <button class="ms-tab" onclick="msTab(this,'press')">Stampa</button>
+    </div>
+
+<script>function msTab(btn,key){document.querySelectorAll('.ms-tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.ms-panel').forEach(x=>x.classList.remove('active'));if(btn)btn.classList.add('active');const p=document.getElementById('ms-'+key);if(p)p.classList.add('active')}</script>
+    <!-- YOUTUBE -->
+    <div class="ms-panel active" id="ms-yt">
+      <div class="yt-grid">
+        <a class="yt-card" href="https://youtu.be/9GxIptYTLk8" target="_blank" rel="noopener">
+          <img class="yt-thumb" src="https://img.youtube.com/vi/9GxIptYTLk8/hqdefault.jpg" alt="Gubbio intervista" onerror="this.style.display='none';if(this.nextElementSibling) this.nextElementSibling.style.display='flex'">
+          <div class="yt-thumb-ph" style="display:none"><div class="yt-play"></div></div>
+          <div class="yt-info"><p class="yt-label">Intervista</p><p class="yt-title">Gubbio — I quattro cicli artistici</p><p class="yt-desc">Alisi racconta le matite galleggianti, il pesce salvatore, le piazze italiane e le nuove avventure di Pinocchio.</p><span class="yt-link">↗ Guarda su YouTube</span></div>
+        </a>
+        <a class="yt-card" href="https://youtu.be/6pd4DRfpJcg" target="_blank" rel="noopener">
+          <img class="yt-thumb" src="https://img.youtube.com/vi/6pd4DRfpJcg/hqdefault.jpg" alt="Prof Iorio" onerror="this.style.display='none';if(this.nextElementSibling) this.nextElementSibling.style.display='flex'">
+          <div class="yt-thumb-ph" style="display:none"><div class="yt-play"></div></div>
+          <div class="yt-info"><p class="yt-label">Critica d'arte</p><p class="yt-title">Prof. Mino Iorio commenta le opere</p><p class="yt-desc">Analisi critica di «Miracolo in piazza», «Equilibrio Francescano», «I paesi del Vattelapesca» e le serie botaniche.</p><span class="yt-link">↗ Guarda su YouTube</span></div>
+        </a>
+        <a class="yt-card" href="https://youtu.be/U4dCdMEvFig" target="_blank" rel="noopener">
+          <img class="yt-thumb" src="https://img.youtube.com/vi/U4dCdMEvFig/hqdefault.jpg" alt="Postignano" onerror="this.style.display='none';if(this.nextElementSibling) this.nextElementSibling.style.display='flex'">
+          <div class="yt-thumb-ph" style="display:none"><div class="yt-play"></div></div>
+          <div class="yt-info"><p class="yt-label">Opera</p><p class="yt-title">Postignano — Il borgo sulla rupe</p><p class="yt-desc">L'artista descrive l'acquarello del borgo di Postignano: la catena che si dissolve, la libellula che trasmette leggerezza.</p><span class="yt-link">↗ Guarda su YouTube</span></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=fn4Sl1ubrNs" target="_blank" rel="noopener">
+          <img class="yt-thumb" src="https://img.youtube.com/vi/fn4Sl1ubrNs/hqdefault.jpg" alt="Intervista" onerror="this.style.display='none';if(this.nextElementSibling) this.nextElementSibling.style.display='flex'">
+          <div class="yt-thumb-ph" style="display:none"><div class="yt-play"></div></div>
+          <div class="yt-info"><p class="yt-label">Intervista</p><p class="yt-title">Stefano Alisi — Presentazione</p><p class="yt-desc">Intervista all'artista sulla sua ricerca pittorica e sui temi ricorrenti nelle sue opere più recenti.</p><span class="yt-link">↗ Guarda su YouTube</span></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=d4NuVRqTX0Q" target="_blank" rel="noopener">
+          <img class="yt-thumb" src="https://img.youtube.com/vi/d4NuVRqTX0Q/hqdefault.jpg" alt="Video" onerror="this.style.display='none';if(this.nextElementSibling) this.nextElementSibling.style.display='flex'">
+          <div class="yt-thumb-ph" style="display:none"><div class="yt-play"></div></div>
+          <div class="yt-info"><p class="yt-label">Mostra</p><p class="yt-title">Visita alla mostra</p><p class="yt-desc">Documentazione video di una delle esposizioni personali dell'artista, con opere e allestimento.</p><span class="yt-link">↗ Guarda su YouTube</span></div>
+        </a>
+        <a class="yt-card" href="https://youtu.be/9GxIptYTLk8?is=t66g_krnT_iTZGKX" target="_blank" rel="noopener">
+          <img class="yt-thumb" src="https://img.youtube.com/vi/9GxIptYTLk8/mqdefault.jpg" alt="Alisi racconta" onerror="this.style.display='none';if(this.nextElementSibling) this.nextElementSibling.style.display='flex'">
+          <div class="yt-thumb-ph" style="display:none"><div class="yt-play"></div></div>
+          <div class="yt-info"><p class="yt-label">Intervista</p><p class="yt-title">Alisi racconta il suo mondo</p><p class="yt-desc">Seconda versione dell'intervista completa: l'artista approfondisce il significato simbolico delle sue serie pittoriche.</p><span class="yt-link">↗ Guarda su YouTube</span></div>
+        </a>
+      </div>
+    </div>
+
+    <!-- FACEBOOK -->
+    <div class="ms-panel" id="ms-fb">
+      <div class="fb-grid">
+        <a class="fb-card" href="https://www.facebook.com/share/v/1Ph6YkibXL/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF0000"/></svg>
+          <p class="fb-type">Video · Facebook</p>
+          <p class="fb-title">Vernissage — Apertura mostra</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/r/18jng2r54r/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Foto · Facebook</p>
+          <p class="fb-title">Rassegna fotografica opere</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/v/1EGKAUNJQo/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF0000"/></svg>
+          <p class="fb-type">Video · Facebook</p>
+          <p class="fb-title">Mostra — Documentazione video</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/p/1E9hSCWuYU/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Post · Facebook</p>
+          <p class="fb-title">Presentazione nuova serie</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/p/1GQ1WAVueJ/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Post · Facebook</p>
+          <p class="fb-title">Le matite galleggianti — Descrizione</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/1bUQpNRobd/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Album · Facebook</p>
+          <p class="fb-title">Portfolio fotografico</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/p/1F5TGPbTGN/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Post · Facebook</p>
+          <p class="fb-title">Critica — Il pesce salvatore</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/p/17nNA45LHh/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Post · Facebook</p>
+          <p class="fb-title">Note su Equilibrio Francescano</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/p/1CzzS9aPwB/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Post · Facebook</p>
+          <p class="fb-title">Riflessioni sull'arte</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/v/17wZiiBJpx/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF0000"/></svg>
+          <p class="fb-type">Video · Facebook</p>
+          <p class="fb-title">Intervista Facebook Live</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/v/14eagNtLFFJ/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF0000"/></svg>
+          <p class="fb-type">Video · Facebook</p>
+          <p class="fb-title">Behind the scenes — Atelier</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/v/1CHAjwouNt/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF0000"/></svg>
+          <p class="fb-type">Video · Facebook</p>
+          <p class="fb-title">Presentazione ciclo Pinocchio</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/v/1EPuKPtTR3/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF0000"/></svg>
+          <p class="fb-type">Video · Facebook</p>
+          <p class="fb-title">Alisi e la natura: intervista</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/v/1Xa8WGRZAw/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF0000"/></svg>
+          <p class="fb-type">Video · Facebook</p>
+          <p class="fb-title">Mostra a Vasto — Palazzo d'Avalos</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/197uT6XYHh/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Album · Facebook</p>
+          <p class="fb-title">Foto mostra Nemi 2025</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/1cSBVaLbub/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Album · Facebook</p>
+          <p class="fb-title">Allestimento e inaugurazione</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/1GzyQQqDQQ/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Album · Facebook</p>
+          <p class="fb-title">Opere acquarello su carta</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/1ENYT2fR9V/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Album · Facebook</p>
+          <p class="fb-title">Serie Le Matite — Documentazione</p>
+        </a>
+        <a class="fb-card" href="https://www.facebook.com/share/1AZ8gcF93r/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <svg class="fb-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <p class="fb-type">Album · Facebook</p>
+          <p class="fb-title">Esposizione personale Roma</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- PRESS -->
+    <div class="ms-panel" id="ms-press">
+      <a class="press-card" href="https://www.notizienazionali.it/notizie/arte-e-cultura/30867/arte-pittura-installazioni-scultura-natale-mostra-inclusionescrittura-love-amore" target="_blank" rel="noopener">
+        <div class="press-logo">Notizie Nazionali</div>
+        <div class="press-body">
+          <p class="press-source">NotizieNazionali.it · Arte &amp; Cultura</p>
+          <p class="press-headline">Arte, pittura, installazioni, scultura: Natale in mostra — Inclusione, scrittura, Love, Amore</p>
+          <p class="press-excerpt">Stefano Alisi tra gli artisti presenti nella rassegna di Natale dedicata all'inclusione e alla scrittura d'amore. Un'esposizione collettiva che unisce pittura, installazioni e scultura nel segno dei valori condivisi.</p>
+          <span class="press-read">↗ Leggi l'articolo completo</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section class="contact-section" id="contatto">
+  <div class="contact-inner">
+    <span class="ci-label">Contatto diretto</span>
+    <h2 class="ci-h">Maggiori informazioni</h2>
+    <p class="ci-sub">Per informazioni sulle opere, richieste espositive e collaborazioni.</p>
+    <form class="cf" id="contact-form" novalidate>
+      <div class="cf-row">
+        <input id="contact-name" name="name" type="text" placeholder="Nome e cognome" autocomplete="name" required>
+        <input id="contact-email" name="email" type="email" placeholder="Email" autocomplete="email" required>
+      </div>
+      <input id="contact-subject" name="subject" type="text" placeholder="Opera di interesse o oggetto" required>
+      <textarea id="contact-message" name="message" placeholder="Messaggio…" required></textarea>
+      <input id="contact-company" name="company" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+      <input id="contact-started" name="startedAt" type="hidden" value="">
+      <label class="cf-privacy"><input id="contact-privacy" name="privacy" type="checkbox" value="accepted" required><span>Ho letto l’<a href="/privacy.html" target="_blank" rel="noopener">Informativa Privacy</a> e comprendo come saranno utilizzati i dati inviati per rispondere alla mia richiesta.</span></label>
+      <button class="cf-btn" type="submit" id="contact-submit">Invia messaggio</button>
+      <p id="contact-status" aria-live="polite" style="margin-top:12px;min-height:1.2em;font-size:.78rem;color:rgba(250,249,247,.55)"></p>
+      <p class="legal-note">I dati del form vengono usati esclusivamente per gestire la richiesta e sono trasmessi tramite il servizio email configurato sul sito. Non vengono usati dal sito per pubblicità o profilazione.</p>
+    </form>
+    <div class="ci-direct">
+      <a href="https://instagram.com/stefano.alisi" target="_blank" class="ci-lk">↗ @stefano.alisi</a>
+      <a href="mailto:stefano.alisi@gmail.com?cc=matteo.massitti@gmail.com" class="ci-lk">✉ stefano.alisi@gmail.com</a>
+      <a href="mailto:stefano.alisi@gmail.com?cc=matteo.massitti@gmail.com" class="ci-lk">✉ matteo.massitti@gmail.com</a>
+    </div>
+    <div class="online">
+      <span class="online-label">Presenza online</span>
+      <div class="online-links">
+        <a class="ol" href="https://www.instagram.com/stefano.alisi" target="_blank" rel="noopener noreferrer" aria-label="Instagram di Stefano Alisi">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg>
+          Instagram
+        </a>
+        <a class="ol" href="https://www.facebook.com/share/1Bh7CFPL6B/" target="_blank" rel="noopener noreferrer" aria-label="Facebook di Stefano Alisi">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.87.24-1.46 1.5-1.46h1.7V3.95A21 21 0 0 0 14.3 3.8c-2.45 0-4.13 1.5-4.13 4.24V10H7.5v3h2.67v8z"/></svg>
+          Facebook
+        </a>
+        <a class="ol" href="http://studiolab138.altervista.org/stefano-alisi.html" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9.2"/><path d="M2.8 12h18.4M12 2.8c2.4 2.5 3.6 5.8 3.6 9.2s-1.2 6.7-3.6 9.2c-2.4-2.5-3.6-5.8-3.6-9.2S9.6 5.3 12 2.8z"/></svg>
+          Approfondimenti
+        </a>
+        <a class="ol" href="https://www.pescarapescara.it/2022/12/01/ci-vuole-un-villaggio-arriva-il-maestro-stefano-alisi/" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h13v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M17 8h3v10.5a1.5 1.5 0 0 1-3 0z"/><path d="M7 8h7M7 11.5h7M7 15h4"/></svg>
+          Rassegna stampa
+        </a>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+
+<!-- ══ PRIVACY & COOKIE POPUP ══ -->
+<div class="privacy-popup" id="privacy-popup" role="dialog" aria-modal="true" aria-labelledby="privacy-popup-title" aria-hidden="true">
+  <div class="privacy-popup-card">
+    <button type="button" class="privacy-popup-close" id="privacy-popup-close" aria-label="Chiudi">×</button>
+    <span class="privacy-popup-kicker">Privacy & Cookie</span>
+    <h2 class="privacy-popup-title" id="privacy-popup-title">La tua privacy sul sito</h2>
+    <p class="privacy-popup-text">Questo sito utilizza le tecnologie necessarie al proprio funzionamento e tratta i dati inviati volontariamente tramite il modulo contatti esclusivamente per rispondere alle richieste. Non vengono usati cookie pubblicitari o di profilazione nel sito pubblico. Puoi leggere in qualsiasi momento le informative complete.</p>
+    <div class="privacy-popup-actions">
+      <a class="privacy-popup-link" href="/privacy.html">Privacy Policy</a>
+      <a class="privacy-popup-link" href="/cookie-policy.html">Cookie Policy</a>
+      <button type="button" class="privacy-popup-ok" id="privacy-popup-ok">Ho capito</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <span class="fl">© 2026 Stefano Alisi — Tutti i diritti riservati</span>
+  <span class="fl"><a href="mailto:stefano.alisi@gmail.com?cc=matteo.massitti@gmail.com" style="color:inherit">stefano.alisi@gmail.com</a> · <a href="mailto:stefano.alisi@gmail.com?cc=matteo.massitti@gmail.com" style="color:inherit">matteo.massitti@gmail.com</a></span>
+  <div class="fr">
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/cookie-policy.html">Cookie Policy</a>
+    <button type="button" class="privacy-reopen" id="privacy-reopen">Privacy & Cookie</button>
+    <a href="https://www.instagram.com/stefano.alisi" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.facebook.com/share/1Bh7CFPL6B/" target="_blank" rel="noopener noreferrer">Facebook</a>
+    <a href="http://studiolab138.altervista.org/stefano-alisi.html" target="_blank" rel="noopener noreferrer">Approfondimenti</a>
+    <a href="https://www.pescarapescara.it/2022/12/01/ci-vuole-un-villaggio-arriva-il-maestro-stefano-alisi/" target="_blank" rel="noopener noreferrer">Rassegna stampa</a>
+  </div>
+
+</footer>
+
+
+<!-- ══ WORK MODAL ══ -->
+<div class="modal" id="modal" role="dialog" aria-modal="true">
+  <div class="modal-left" id="modal-left" onclick="toggleZoom(event)">
+    <div class="modal-img-wrap">
+      <img class="modal-img" id="modal-img" src="" alt="">
+    </div>
+    <span class="zoom-hint">Clicca per ingrandire · ESC per chiudere</span>
+  </div>
+  <div class="modal-right">
+    <button class="mr-close" onclick="closeModal()" aria-label="Chiudi">✕</button>
+    <p class="mr-series" id="mr-series"></p>
+    <h2 class="mr-title" id="mr-title"></h2>
+    <p class="mr-tech" id="mr-tech"></p>
+    <p class="mr-dims" id="mr-dims"></p>
+    <p class="mr-year" id="mr-year"></p>
+    <div class="mr-divider"></div>
+    <p class="mr-desc" id="mr-desc"></p>
+    <div class="mr-nav">
+      <button class="mr-btn" id="btn-prev" onclick="navWork(-1)">← Precedente</button>
+      <span class="mr-counter" id="mr-counter"></span>
+      <button class="mr-btn" id="btn-next" onclick="navWork(1)">Successiva →</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const SERIES_COLORS = {
+  "Pinocchio":"#B5522A",
+  "Piazze e Visioni":"#294D78",
+  "Natura e Simbolo":"#4A7A52",
+  "Visioni Oniriche":"#2A2520",
+  "Le Matite":"#C4922A",
+  "Camicie":"#8A7A6E",
+  "Nature morte":"#5C4A3A",
+  "Altre visioni":"#4A4060"
+};
+
+let WORKS = [
+  {title:"La tentazione di Pinocchio",tech:"Olio su tela",dims:"60×30 cm",series:"Pinocchio",year:"2022",desc:"In quest'opera Pinocchio non è il personaggio della fiaba, ma il simbolo della continua tensione tra desiderio e coscienza. Alisi inventa nuove avventure per il celebre burattino, per conferirgli nuova linfa, voglia di vivere, gioventù e un tocco di trasgressione.",src:"/opere/w0.jpg",thumb:""},
+  {title:"Pinocchio e la nostalgia del circo",tech:"Olio su tela",dims:"60×30 cm",series:"Pinocchio",year:"2023",desc:"Alisi porta il celebre burattino in una nuova avventura: il naso diventa pista da corsa, il circo è nostalgia di un mondo perduto. L'opera racconta il desiderio di vivere e la forza della fantasia contro la realtà.",src:"/opere/w1.jpg",thumb:""},
+  {title:"Notturno Pinocchio",tech:"Olio su tela",dims:"60×30 cm",series:"Pinocchio",year:"2024",desc:"Pinocchio nella notte — la dimensione onirica si fonde con l'iconografia del celebre burattino. Il notturno diventa metafora dell'inconscio: nel buio emergono le paure, i sogni, le possibilità non ancora vissute.",src:"/opere/w2.jpg",thumb:""},
+  {title:"L'ultima bugia di Pinocchio",tech:"Olio su tela",dims:"60×30 cm",series:"Pinocchio",year:"2024",desc:"Una farfalla fugge dalla caccia di un camaleonte e trova riparo sotto il naso di Pinocchio. I due si scambiano uno sguardo di intesa: per questa volta la farfalla è salva!",src:"/opere/w3.jpg",thumb:""},
+  {title:"Pinocchio alle Mille Miglia",tech:"Olio su tela",dims:"60×30 cm",series:"Pinocchio",year:"2025",desc:"Pinocchio con casco d'aviatore, il naso trasformato in pista — due macchinine sfrecciano verso il traguardo. La bugia come motore di corsa, l'invenzione come accelerazione della vita.",src:"/opere/w4.jpg",thumb:""},
+  {title:"L'ebbrezza di Pinocchio",tech:"Olio su tela",dims:"60×30 cm",series:"Pinocchio",year:"2025",desc:"Il naso di Pinocchio si trasforma in cavatappi e stappa un calice di vino rosso che si rovescia a mezz'aria. L'ebbrezza non è perdita di controllo ma leggerezza ritrovata: la bugia che si fa convivio, la materia del burattino che si offre al gioco e al piacere.",src:"/opere/w5.jpg",thumb:""},
+  {title:"Quartiere operaio — acquarello",tech:"Acquarello su carta",dims:"45×30 cm",series:"Piazze e Visioni",year:"2017",desc:"Variante in acquarello del Quartiere operaio: le stesse case scomposte in piani cromatici, lo stesso fumo che sale verso una stella e una luna sospese. Qui il colore si fa più tenue, quasi il ricordo sbiadito di un luogo già dipinto, riscoperto a distanza di anni.",src:"/opere/w6.jpg",thumb:""},
+  {title:"La Primavera che avanza",tech:"Olio su tela",dims:"50×40 cm",series:"Piazze e Visioni",year:"2020",desc:"Un borgo geometrico si risveglia: alberi a forma di goccia rosa, oche bianche che attraversano il sentiero, una nuvola sospesa sopra i tetti scomposti. La primavera avanza non come stagione ma come ritmo cromatico che scompone e ricompone il paesaggio.",src:"/opere/w7.jpg",thumb:""},
+  {title:"Quartiere operaio",tech:"Olio su tela",dims:"60×50 cm",series:"Piazze e Visioni",year:"2021",desc:"Un quartiere fatto di piani e angoli scomposti alla maniera di Klee: un gatto attraversa la scena con passo sicuro, una luna e una stella vegliano sui tetti, un libro abbandonato su una panca racconta di una sosta improvvisa. La quotidianità operaia trasfigurata in geometria poetica.",src:"/opere/w8.jpg",thumb:""},
+  {title:"Nevicata improvvisa",tech:"Olio su tela",dims:"50×40 cm",series:"Piazze e Visioni",year:"2022",desc:"Una donna porta l'acqua al pozzo mentre il suo cane l'accompagna fedele; un pettirosso scalda il primo piano, i crochi spuntano tra le chiazze di neve che si sciolgono a riquadri. La nevicata improvvisa è già memoria — resta il mosaico di colore lasciato dal disgelo.",src:"/opere/w9.jpg",thumb:""},
+  {title:"Controvento",tech:"Olio su tela",dims:"60×50 cm",series:"Piazze e Visioni",year:"2022",desc:"Un galletto-segnavento gira sopra una torre dell'orologio mentre barchette di carta e piastrelle volano scompigliate dal vento. Un piccolo cane osserva impassibile la scena: il controvento come metafora della resistenza che non si arrende alla direzione imposta.",src:"/opere/w10.jpg",thumb:""},
+  {title:"L'arrivo del circo",tech:"Olio su tela",dims:"50×50 cm",series:"Piazze e Visioni",year:"2022",desc:"Il tendone bianco e rosso si apre sulla piazza, un elefante sale sul piedistallo, un Pierrot tiene il suo nastro a spirale, un tucano suona il tamburello e un bambino gusta un gelato in equilibrio su una palla a righe. L'arrivo del circo come irruzione di meraviglia nel quotidiano.",src:"/opere/w11.jpg",thumb:""},
+  {title:"Il cavallo di Leonardo e la ricerca della bellezza",tech:"Olio su tavola",dims:"40×40 cm",series:"Piazze e Visioni",year:"2022",desc:"Un cavallo di ispirazione leonardesca attraversa un paesaggio scomposto in tessere geometriche, mentre una bambina legge seduta su un muretto e un lupo bianco si allontana in silenzio. La ricerca della bellezza è qui un cammino fatto di rimandi: il disegno rinascimentale, la fiaba, il gioco della memoria.",src:"/opere/w12.jpg",thumb:""},
+  {title:"Apuliae reveries",tech:"Olio su tela",dims:"50×40 cm",series:"Piazze e Visioni",year:"2023",desc:"Una donna in abito blu siede immobile in un cortile pugliese fatto di calce bianca, cupole e maioliche, mentre una falena si posa sul muro e un geco si arrampica accanto a una finestra cieca. Le 'reveries' di Puglia sono questo sospendersi del tempo nella luce accecante del Sud.",src:"/opere/w13.jpg",thumb:""},
+  {title:"Miracolo in piazza",tech:"Olio su tela",dims:"60×40 cm",series:"Piazze e Visioni",year:"2024",desc:"Piazza italiana idealizzata: architetture rinascimentali ispirate a Leon Battista Alberti, una musa con violoncello e chioma dorata, fiori rossi in primo piano, una scacchiera legata alla dimensione del gioco infantile. Il Prof. Mino Iorio la analizza come una delle opere più ricche di Alisi.",src:"/opere/w14.jpg",thumb:""},
+  {title:"Un circo in piazza",tech:"Olio su tela",dims:"60×50 cm",series:"Piazze e Visioni",year:"2024",desc:"Il circo approda nella piazza italiana — sogno, gioco e meraviglia nell'architettura del quotidiano. Una composizione che mescola elementi della tradizione popolare con la visione onirica, trasformando ogni angolo della piazza in palcoscenico di meraviglia.",src:"/opere/w15.jpg",thumb:""},
+  {title:"Perdersi per ritrovarsi",tech:"Olio su tela",dims:"50×60 cm",series:"Piazze e Visioni",year:"2024",desc:"Un bambino si allontana per bere a una fontana, abbandonando la sua palla e perdendo la strada di casa. Accanto a lui compare una lumaca, esplicito emblema della lentezza. L'opera si inserisce nella corrente del simbolismo magico e surreale italiano.",src:"/opere/w16.jpg",thumb:""},
+  {title:"La Periferia del Possibile",tech:"Olio su tavola",dims:"60×50 cm",series:"Piazze e Visioni",year:"2025",desc:"Una città dalla fisica impossibile dove le case fluttuano, i piani si moltiplicano, i livelli si sovrappongono. Il gatto sul tetto, la bambina che legge, il pesciolino rosso — simboli di un quotidiano reinventato.",src:"/opere/w17.jpg",thumb:""},
+  {title:"L'ambulante dei balocchi",tech:"Olio su tela",dims:"60×50 cm",series:"Piazze e Visioni",year:"2026",desc:"Un uomo con il suo cane fa volare un aquilone in una piazza italiana fantastica, abitata da un'ape Porter carica di matite, un edificio giallo con testi incisi, architetture geometriche. Il gioco come atto filosofico.",src:"/opere/w18.jpg",thumb:""},
+  {title:"L'angustia della locusta",tech:"Acquarello e matita su carta",dims:"32×50 cm",series:"Natura e Simbolo",year:"2020",desc:"Dentro una struttura a riquadri — metà torre araba, metà natura morta — un'arancia tagliata, una luna capovolta, un castello merlato e una locusta posata sulle pietre convivono in equilibrio precario. L'angustia è lo spazio stretto in cui la vita, comunque, trova il modo di stare.",src:"/opere/w19.jpg",thumb:""},
+  {title:"Per gioco, per davvero",tech:"Acquarello su carta",dims:"56×20 cm",series:"Natura e Simbolo",year:"2021",desc:"Un nastro d'acqua orizzontale attraversa isolotti, un gatto che tenta di pescare un buffo pesce colorato, una barchetta di carta, un piccolo borgo su uno scoglio fluttuante. Per gioco, per davvero: la linea sottile tra il fingere e il credere è il vero soggetto dell'opera.",src:"/opere/w20.jpg",thumb:""},
+  {title:"Arcipelago",tech:"Olio su tela",dims:"40×40 cm",series:"Natura e Simbolo",year:"2021",desc:"Isole sospese di forme diverse — una piramide con fiamma, un cono a vele, uno scoglio con borgo — punteggiano un mare di nebbia chiara, mentre un pesce-origami nuota in basso tra frammenti di maiolica alla deriva. Un arcipelago della fantasia, dove ogni isola è un pensiero separato dagli altri.",src:"/opere/w21.jpg",thumb:""},
+  {title:"Lo specchiarsi dei narcisi",tech:"Acquarello su carta",dims:"32×50 cm",series:"Natura e Simbolo",year:"2022",desc:"I narcisi si specchiano in un lago immaginario — natura e vanità in dialogo poetico. La trasparenza dell'acquarello crea una leggerezza simbolica: il riflesso non è solo immagine ma interrogazione sul desiderio e sulla bellezza.",src:"/opere/w22.jpg",thumb:""},
+  {title:"Il volto del desiderio",tech:"Acquarello e matita su carta",dims:"24×34 cm",series:"Natura e Simbolo",year:"2022",desc:"Una conchiglia e una rosa arancione, nuvole-stringhe a righe, una torre con campanile dorato. In basso a destra il titolo dell'opera. Una composizione sospesa tra desiderio e memoria, profumo e architettura.",src:"/opere/w23.jpg",thumb:""},
+  {title:"La tentazione della ghiandaia",tech:"Olio su tela",dims:"40×30 cm",series:"Natura e Simbolo",year:"2023",desc:"Una ghiandaia indaga il muro di un borgo mentre un cane da guardia riposa indifferente e una carriola porta in salvo una ciliegia gigante. Sopra ogni cosa, un cielo notturno fatto di lune in fase e stelle scomposte alla maniera di Klee. La tentazione è quella, antica, di rubare un frutto più grande di sé.",src:"/opere/w24.jpg",thumb:""},
+  {title:"La zolla del tarassaco",tech:"Acquarello su carta",dims:"28×52 cm",series:"Natura e Simbolo",year:"2023",desc:"Elementi fitomorfi — fiori gialli di tarassaco — nascono da tuberi piantati in una zolla di terra. Guardando bene, la zolla si rivela essere la raffigurazione in miniatura di un tipico borgo di collina italiano. La natura e l'insediamento umano diventano un'unica entità.",src:"/opere/w25.jpg",thumb:""},
+  {title:"Basta niente",tech:"Acquarello e matita su carta",dims:"19×56 cm",series:"Natura e Simbolo",year:"2023",desc:"Un pesce palla disegnato a grafite veglia dall'alto un'isola d'acqua azzurra in cui un borgo si sta lentamente sciogliendo, mentre più sotto una matita e una mela tagliata, appena accennate a matita, chiudono la composizione. Basta niente, dice il titolo: pochi segni essenziali per costruire un intero mondo.",src:"/opere/w26.jpg",thumb:""},
+  {title:"Equilibrio francescano",tech:"Acquarello e matita su carta",dims:"34×52 cm",series:"Natura e Simbolo",year:"2023",desc:"Antico borgo sovrastato da un falco e accompagnato da una maestosa rana pescatrice. Il critico Prof. Mino Iorio vede in quest'opera la perfetta rappresentazione della cultura dell'entroterra appenninico e di un ideale equilibrio vitale incentrato sulla protezione della vita e delle risorse ambientali.",src:"/opere/w27.jpg",thumb:""},
+  {title:"Disancoramento",tech:"Acquarello su carta",dims:"32×50 cm",series:"Natura e Simbolo",year:"2024",desc:"Un intero borgo issato su una zolla rocciosa pende da un gancio e una catena, sospeso a mezz'aria; una libellula si posa sui tetti, due pesci rossi nuotano nel vuoto sotto le case. Il disancoramento è la condizione di chi, pur radicato, scopre di poter essere sollevato altrove.",src:"/opere/w28.jpg",thumb:""},
+  {title:"Mater Mediterranea",tech:"Olio su tela",dims:"50×50 cm",series:"Natura e Simbolo",year:"2024",desc:"Due rocche speculari — una con campanile cristiano, l'altra con cupola e minareto — si affacciano sul Mediterraneo notturno, collegate da una barchetta di carta e da maioliche che cadono come ponti sospesi. Una madre comune, il mare, tiene insieme due sponde e due storie.",src:"/opere/w29.jpg",thumb:""},
+  {title:"I paesi del Vattelapesca",tech:"Acquarello e matita su carta",dims:"32×54 cm",series:"Natura e Simbolo",year:"2024",desc:"Un pesce frutto della fantasia unisce con un ponte due borghi distinti: una bellissima metafora surreale che simboleggia l'unione di visioni e modi di pensare di popoli diversi. La fantasia come ponte tra culture.",src:"/opere/w30.jpg",thumb:""},
+  {title:"Storia di questo mondo",tech:"Acquarello su carta",dims:"36×56 cm",series:"Natura e Simbolo",year:"2025",desc:"Un pesce d'acciaio arrugginito, nato dall'incontro tra una vecchia ceramica blu di Delft e un meccanismo industriale, scivola via lasciando dietro di sé bottoni e ingranaggi: la storia di questo mondo è anche questo, l'incontro tra ciò che è artigianale e ciò che è macchina.",src:"/opere/w31.jpg",thumb:""},
+  {title:"Riflessi e riflessioni",tech:"Acquarello su carta",dims:"32×54 cm",series:"Natura e Simbolo",year:"2025",desc:"Architetture lagunari fatte di cupole e arcate, matite incastonate nei muri come colonne, una gondola dipinta legata a un palo d'ormeggio veneziano, una pera in equilibrio su un parapetto sotto luna e stella. Riflessi sull'acqua e riflessioni della mente si confondono nello stesso disegno.",src:"/opere/w32.jpg",thumb:""},
+  {title:"Niente di nuovo sotto il sole",tech:"Acquarello su carta",dims:"50×20 cm",series:"Natura e Simbolo",year:"2026",desc:"Un panorama orizzontale stretto: isole rocciose, un gatto che caccia farfalle, cannoni che puntano verso nuvole geometriche. Il mare è pieno di sardine — la vita ordinaria trasfigurata in visione poetica.",src:"/opere/w33.jpg",thumb:""},
+  {title:"Relazioni condominiali",tech:"Acquarello su carta",dims:"34×56 cm",series:"Natura e Simbolo",year:"2026",desc:"Una torre bianca abitata da insetti e animali: una lumaca rosa in cima, una cavalletta, un uccello colorato, una lucertola verde, una falena, un topolino. La torre di Babele reinterpretata come ecosistema.",src:"/opere/w34.jpg",thumb:""},
+  {title:"Il dis-astro della perdita",tech:"Olio su tela",dims:"40×40 cm",series:"Visioni Oniriche",year:"2020",desc:"Una figura velata siede accanto a un cane addormentato, mentre rombi colorati cadono come lacrime geometriche e, in alto, pianeti e comete tracciano un'orbita silenziosa. Il titolo gioca sulla parola disastro scomposta in 'dis-astro': la perdita osservata dalla distanza fredda delle stelle.",src:"/opere/w35.jpg",thumb:""},
+  {title:"Il tempo delle scelte",tech:"Olio su tavola",dims:"70×70 cm",series:"Visioni Oniriche",year:"2021",desc:"Una freccia indica una direzione sola, un furgoncino verde porta in equilibrio una matita gigante, una donna con un abito a fiori accarezza il suo levriero davanti a un piatto di mele. Stelle cadenti e foglie dorate fluttuano sopra una chiesa e un palazzo moderno: il tempo delle scelte è anche il tempo in cui tutte le strade restano, per un istante, ancora possibili.",src:"/opere/w36.jpg",thumb:""},
+  {title:"L'inadeguatezza del Santo",tech:"Acquarello e matita su carta",dims:"45×30 cm",series:"Visioni Oniriche",year:"2022",desc:"Figura sacra in bilico tra il divino e l'umano — l'inadeguatezza come condizione universale dell'essere. Alisi affronta il sacro con la sua tipica ironia leggera, trasformando un tema grandioso in una riflessione intima e commovente.",src:"/opere/w37.jpg",thumb:""},
+  {title:"La saggezza del pesce",tech:"Olio su tela",dims:"60×40 cm",series:"Visioni Oniriche",year:"2022",desc:"Un pesce immenso, fatto di mele, libri, matite, una sigaretta e una busta di cuoio, accoglie sul proprio dorso una giovane donna seduta in meditazione. La saggezza qui non è ordine ma accumulo: ogni oggetto della vita trova posto dentro la stessa, unica creatura.",src:"/opere/w38.jpg",thumb:""},
+  {title:"Vane parole",tech:"Olio su tela",dims:"60×40 cm",series:"Visioni Oniriche",year:"2023",desc:"Una testa-relitto arenata sulla sabbia, con una pipa in bocca e un carico di matite, piume, conchiglie e un uovo al tegamino, osserva impassibile due uomini in giacca e cravatta, pinne ai piedi, persi nel paesaggio che non sanno leggere. Le vane parole sono le loro: davanti alla ricchezza muta della fantasia, il linguaggio ordinario non basta.",src:"/opere/w39.jpg",thumb:""},
+  {title:"Senza paura",tech:"Olio su tela",dims:"60×40 cm",series:"Visioni Oniriche",year:"2023",desc:"Un pesce meccanico e vegetale insieme — pinne di carte da gioco, squame di libri, una pipa accesa, un mazzo di gigli bianchi e una piccola figura femminile seduta sulla sua schiena — avanza nel buio senza esitazione. Senza paura è il pesce, e senza paura deve essere chi osa guardarlo intero.",src:"/opere/w40.jpg",thumb:""},
+  {title:"Trasferimento d'urgenza II",tech:"Acquarello e matita su carta",dims:"50×35 cm",series:"Visioni Oniriche",year:"2023",desc:"Composizione surreale dominata da figure in movimento verso un destino incerto. La grafite e l'acquarello creano un dualismo tra materia e visione: il segno grafico austero si fonde con la trasparenza dell'acquarello in una tensione emotiva costante.",src:"/opere/w41.jpg",thumb:""},
+  {title:"Psychedelic Fish",tech:"Olio su tela",dims:"60×40 cm",series:"Visioni Oniriche",year:"2023",desc:"Il pesce salvatore raccoglie su di sé frammenti e scorie della civiltà — oggetti, paesaggi, memorie — intraprendendo un viaggio verso la libertà con lo scopo di salvare piccoli pezzi di storia umana. La civiltà trova rifugio nell'inconscio del mondo marino.",src:"/opere/w42.jpg",thumb:""},
+  {title:"Terrazza romana",tech:"Acquarello e matita su carta",dims:"30×45 cm",series:"Visioni Oniriche",year:"2023",desc:"Una donna elegante, bicchiere di vino in mano, si abbandona su un divanino verde davanti a una cupola barocca dorata dal tempo; ma sotto la quiete affiorano una siringa, una fiala, un topolino che spunta da un arco di pietra. La terrazza romana custodisce, dietro la sua leggerezza, una fragilità che nessuna vista può cancellare.",src:"/opere/w43.jpg",thumb:""},
+  {title:"Trasferimento d'urgenza I",tech:"Acquarello e matita su carta",dims:"50×20 cm",series:"Visioni Oniriche",year:"2024",desc:"Un borgo issato su uno scoglio fluttuante è trainato, tramite un gancio meccanico, da un grande pesce palla disegnato a matita — una conchiglia e una nuvola d'inchiostro azzurro accompagnano il rimorchio. Il trasferimento d'urgenza non rivela la sua causa: resta solo l'urgenza, sospesa come tutto il resto.",src:"/opere/w44.jpg",thumb:""},
+  {title:"Notturno montano",tech:"Olio su tela",dims:"60×40 cm",series:"Visioni Oniriche",year:"2024",desc:"La quiete notturna di un borgo montano. Gli elementi centrali sono un cane che riposa e un cavallo che vaga pascolando in totale tranquillità. Nel dipinto è inserita la figura di un gufo, a cui viene attribuito un valore apotropaico, collegato alla superstizione e alla cultura popolare contadina.",src:"/opere/w45.jpg",thumb:""},
+  {title:"Le matite verticali — L'inabissamento del rosso",tech:"Olio su tela",dims:"40×80 cm",series:"Le Matite",year:"2025",desc:"Una matita rossa capovolta porta sulla punta un'intera città italiana con campanile e case antiche. Due pesci nuotano attorno alla sua forma. Nella serie delle matite galleggianti, ognuna è un mondo che porta con sé una memoria.",src:"/opere/w46.jpg",thumb:""},
+  {title:"Le matite verticali — L'inabissamento del blu",tech:"Olio su tavola",dims:"40×80 cm",series:"Le Matite",year:"2025",desc:"La matita blu diventa contenitore di un paesaggio acquatico: tre pesci pagliaccio nuotano attorno a rovine veneziane e architetture sommerse. Una 'nuova Atlantide' custodita nell'inchiostro.",src:"/opere/w47.jpg",thumb:""},
+  {title:"Le matite verticali — L'inabissamento del giallo",tech:"Olio su tela",dims:"40×80 cm",series:"Le Matite",year:"2025",desc:"Una grande matita gialla porta sulla punta un'intera città italiana con torre medievale. Un cavalluccio marino, due pesci bizzarri, conchiglie e un barchettino di carta completano la composizione. Tra le matite della serie, questa è la più luminosa.",src:"/opere/w48.jpg",thumb:""},
+  {title:"Il pensiero di una Staedler",tech:"Acquarello su carta",dims:"50×20 cm",series:"Le Matite",year:"2025",desc:"Un'upupa si posa su una matita gialla distesa, mentre dalla punta nasce un piccolo borgo italiano e, più in alto, fluttuano tessere di maiolica e una luna crescente. Il pensiero di una Staedler è leggero come una piuma e denso come un intero paese.",src:"/opere/w49.jpg",thumb:""},
+  {title:"La salvezza del blu di Delft",tech:"Acquarello su carta",dims:"50×20 cm",series:"Le Matite",year:"2025",desc:"Da un frammento di ceramica blu di Delft, decorato con fiori e arabesque, emerge la testa corazzata di un pesce-macchina, imbrigliato in cinghie e bulloni, con pinne color fuoco. La salvezza arriva da un oggetto antico e fragile che si fa improvvisamente corpo vivo.",src:"/opere/w50.jpg",thumb:""},
+  {title:"Il ritorno dello storno",tech:"Olio su tela",dims:"50×20 cm",series:"Le Matite",year:"2026",desc:"Una matita gialla giace orizzontale — sulla sua superficie una città medievale. Un merlo si è posato sulla coda della matita, curioso del piccolo mondo che porta. La semplicità del gesto animale accanto alla complessità umana.",src:"/opere/w51.jpg",thumb:""},
+  {title:"Pausa di riflessione",tech:"Acquarello e china su carta",dims:"30×45 cm",series:"Camicie",year:"2007",desc:"Dal colletto di una camicia bianca distesa, vuota, emerge un piccolo mondo: un cavallo che si flette su se stesso, un gallo, un borgo antico, una scia di stelle e una falce di luna rossa. La camicia, priva di corpo, diventa il luogo stesso della sosta e del pensiero.",src:"/opere/w52.jpg",thumb:""},
+  {title:"Ecce homo",tech:"Acquarello e china su carta",dims:"30×45 cm",series:"Camicie",year:"2008",desc:"Una conchiglia a spirale prende il posto della testa sopra il colletto di una camicia bianca, mentre stelle marine e altre conchiglie si dispongono ai suoi piedi. L'umanità — ecce homo — qui è ridotta all'essenziale: un indumento e un guscio marino, la forma senza il volto.",src:"/opere/w53.jpg",thumb:""},
+  {title:"Italico disagio",tech:"Acquarello e china su carta",dims:"30×45 cm",series:"Camicie",year:"2015",desc:"Un piatto di spaghetti al pomodoro, infilzato da una forchetta enorme, sorge dal colletto di una camicia gonfia come un sacco, osservato da una formica intenta e curiosa. L'italico disagio è tutto in questa sproporzione tra il piccolo desiderio e il piatto colmo che lo sovrasta.",src:"/opere/w54.jpg",thumb:""},
+  {title:"Visita al tempio",tech:"Acquarello e china su carta",dims:"30×45 cm",series:"Camicie",year:"2017",desc:"Da una camicia ripiegata come un sacco emergono matite colorate, una conchiglia a spirale e tessere di maiolica disposte come un mosaico di tempio orientale. La visita al tempio è un viaggio interiore fatto di oggetti minuti, custoditi nella stoffa come reliquie quotidiane.",src:"/opere/w55.jpg",thumb:""},
+  {title:"Erosioni psico geologiche",tech:"Acquarello e china su carta",dims:"30×45 cm",series:"Camicie",year:"2017",desc:"Un radicchio trevigiano si apre come un fiore sopra i colletti intrecciati di due camicie, mentre sullo sfondo un piccolo borgo resiste sotto la pioggia obliqua. Le erosioni psico geologiche sono questo lento consumarsi della forma — vegetale, architettonica, umana — sotto la pressione del tempo.",src:"/opere/w56.jpg",thumb:""},
+  {title:"L'agguato del ramarro",tech:"Acquarello e china su carta",dims:"30×45 cm",series:"Camicie",year:"2017",desc:"Un ramarro verde spunta dal colletto di una camicia bianca, mentre un ciclamino selvatico si arrampica con le sue spirali e una farfalla si posa poco distante. L'agguato non è una minaccia ma un'apparizione: la natura che sorprende l'indumento umano da dentro.",src:"/opere/w57.jpg",thumb:""},
+  {title:"Il borgo in camicia",tech:"Acquarello e china su carta",dims:"30×45 cm",series:"Camicie",year:"2023",desc:"Un intero borgo medievale, completo di torri e scalinate, poggia sul colletto aperto di una camicia bianca punteggiata di mele; in cielo, frecce e una stella vegliano sulla scena, mentre piccole isole-mela si ripetono ai piedi dell'indumento. Il borgo in camicia è la casa che si porta addosso, ovunque si vada.",src:"/opere/w58.jpg",thumb:""},
+  {title:"Insoliti accordi",tech:"Acquarello su carta",dims:"56×20 cm",series:"Nature morte",year:"2019",desc:"Il riccio di un violoncello si trasforma nel collo di uno strumento ad arco su cui si posa, con naturalezza assoluta, un codirosso. L'accordo insolito è quello tra la musica costruita dall'uomo e il canto che la natura intona senza bisogno di spartiti.",src:"/opere/w59.jpg",thumb:""},
+  {title:"Camminando in mezzo al mondo",tech:"Acquarello su carta",dims:"56×20 cm",series:"Nature morte",year:"2019",desc:"Un camaleonte attraversa con passo lento una mensola popolata da brocche di terracotta, una matita e una mela morsicata, lasciando dietro di sé il mondo immobile della natura morta. Camminando in mezzo al mondo, anche l'oggetto più quieto si scopre attraversato dalla vita.",src:"/opere/w60.jpg",thumb:""},
+  {title:"La trappola del pittore",tech:"Acquarello su carta",dims:"56×20 cm",series:"Nature morte",year:"2020",desc:"Da un barattolo di latta spunta un ramo secco a cui sono legate ciliegie lucenti, mentre un topolino si protende ad afferrarle con le zampe alzate. La trappola del pittore è l'illusione stessa della natura morta: frutti dipinti così veri da ingannare anche le creature più piccole.",src:"/opere/w61.jpg",thumb:""},
+  {title:"Rimanere all'asciutto",tech:"Acquarello su carta",dims:"56×20 cm",series:"Nature morte",year:"2021",desc:"Una raganella verde avanza su un muretto di pietra accanto a un calice, due brocche colorate e un ramo di fiori rosa, in un equilibrio domestico e silenzioso. Rimanere all'asciutto è il piccolo miracolo quotidiano della rana di terra, lontana per un istante dal suo elemento naturale.",src:"/opere/w62.jpg",thumb:""},
+  {title:"Impressioni di settembre",tech:"Acquarello su carta",dims:"30×45 cm",series:"Altre visioni",year:"2016",desc:"Una matita variopinta, appuntita come una cometa, attraversa un pannello di cielo stellato sopra un cavallo che si flette teneramente sul collo di un compagno e un gallo appollaiato su un antico borgo. Impressioni di settembre sospende l'opera tra la serie delle matite e quella simbolica della natura, senza scegliere fino in fondo.",src:"/opere/w63.jpg",thumb:""},
+  {title:"Il tempo di un caffè e una sigaretta",tech:"Olio su tela",dims:"50×50 cm",series:"Altre visioni",year:"2020",desc:"Una tazzina fumante e un pacchetto di sigarette poggiano su una tovaglia a scacchi, davanti a una chiesa a righe rosa e bianche e a un cielo notturno a rombi sotto la luna piena. Il tempo di una pausa breve, sospeso tra il sacro di un campanile e il profano di un piccolo vizio quotidiano.",src:"/opere/w64.jpg",thumb:""},
+  {title:"PicchioPinocchio",tech:"Olio su tela",dims:"60×30 cm",series:"Pinocchio",year:"2026",desc:"Un picchio rosso maggiore si posa su un ramo di quercia che diventa, per metamorfosi naturale, il naso di Pinocchio. Il burattino osserva immobile, con il suo cappello a punta verde a pois rossi, mentre l'uccello becchetta il legno vivo: la bugia si fa ramo, il ramo si fa nido. Su un cielo azzurro attraversato da scie luminose, Alisi mette in scena l'incontro fra natura e finzione — la creatura di legno che, toccata dalla vita selvatica, torna albero.",src:"/opere/picchiopinocchio.jpg",thumb:"/opere/picchiopinocchio.jpg"}
+];
+
+let current = 0, isZoomed = false;
+
+function openWork(idx) {
+  current = idx;
+  renderModal();
+  document.getElementById('modal').classList.add('open');
+  document.body.classList.add('modal-open');
+  isZoomed = false;
+  const img = document.getElementById('modal-img');
+  img.classList.remove('zoomed');
+  document.getElementById('modal-left').classList.remove('zoomed');
+}
+
+function renderModal() {
+  const w = WORKS[current];
+  const img = document.getElementById('modal-img');
+  img.src = w.src || ('data:image/jpeg;base64,' + (w.b64||''));
+  img.alt = w.title;
+  document.getElementById('mr-series').textContent = w.series;
+  document.getElementById('mr-title').textContent = w.title;
+  document.getElementById('mr-tech').textContent = w.tech;
+  document.getElementById('mr-dims').textContent = w.dims;
+  document.getElementById('mr-year').textContent = w.year;
+  document.getElementById('mr-desc').textContent = w.desc;
+  document.getElementById('mr-counter').textContent = (current+1) + ' / ' + WORKS.length;
+  const col = SERIES_COLORS[w.series] || '#B8841E';
+  document.getElementById('mr-series').style.color = col;
+  document.getElementById('btn-prev').disabled = current === 0;
+  document.getElementById('btn-next').disabled = current === WORKS.length - 1;
+  isZoomed = false;
+  img.classList.remove('zoomed');
+  img.style.transformOrigin = 'center center';
+  document.getElementById('modal-left').classList.remove('zoomed');
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+  document.body.classList.remove('modal-open');
+  isZoomed = false;
+}
+
+function navWork(dir) {
+  const next = current + dir;
+  if (next >= 0 && next < WORKS.length) { current = next; renderModal(); }
+}
+
+function toggleZoom(e) {
+  const ml = document.getElementById('modal-left');
+  const img = document.getElementById('modal-img');
+  if (!isZoomed) {
+    const rect = img.getBoundingClientRect();
+    const px = ((e.clientX - rect.left) / rect.width * 100).toFixed(1);
+    const py = ((e.clientY - rect.top) / rect.height * 100).toFixed(1);
+    img.style.transformOrigin = px + '% ' + py + '%';
+    img.classList.add('zoomed');
+    ml.classList.add('zoomed');
+    isZoomed = true;
+  } else {
+    img.classList.remove('zoomed');
+    ml.classList.remove('zoomed');
+    isZoomed = false;
+  }
+}
+
+// Keyboard nav
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('modal').classList.contains('open')) return;
+  if (e.key === 'Escape') closeModal();
+  if (e.key === 'ArrowRight') navWork(1);
+  if (e.key === 'ArrowLeft') navWork(-1);
+  if (e.key === 'z' || e.key === 'Z') { 
+    const fakeEvent = {clientX: window.innerWidth*.35, clientY: window.innerHeight*.5};
+    const img = document.getElementById('modal-img');
+    img.style.transformOrigin = '50% 50%';
+    if(!isZoomed){img.classList.add('zoomed');document.getElementById('modal-left').classList.add('zoomed');isZoomed=true;}
+    else{img.classList.remove('zoomed');document.getElementById('modal-left').classList.remove('zoomed');isZoomed=false;}
+  }
+});
+
+// Click outside modal to close
+document.getElementById('modal').addEventListener('click', e => {
+  if (e.target === document.getElementById('modal')) closeModal();
+});
+
+
+// ── Contatti: Vercel Function + Resend ──
+(function(){
+  const form=document.getElementById('contact-form'); if(!form)return;
+  const started=document.getElementById('contact-started'); if(started)started.value=String(Date.now());
+  form.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const status=document.getElementById('contact-status'),button=document.getElementById('contact-submit');
+    const data=Object.fromEntries(new FormData(form).entries());
+    if(data.company)return; // honeypot anti-spam
+    if(data.privacy!=='accepted'){status.textContent='Leggi e conferma l’informativa privacy prima di inviare.';return}
+    if(!data.name||!data.email||!data.subject||!data.message){status.textContent='Compila tutti i campi richiesti.';return}
+    button.disabled=true; status.textContent='Invio in corso…';
+    try{
+      const r=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+      const j=await r.json().catch(()=>({})); if(!r.ok)throw new Error(j.error||'Invio non riuscito.');
+      form.reset(); if(started)started.value=String(Date.now()); status.textContent='Messaggio inviato correttamente. Grazie!';
+    }catch(err){console.error(err);status.textContent='Non è stato possibile inviare il messaggio. Riprova tra poco o usa l’email diretta.'}
+    finally{button.disabled=false}
+  })
+})();
+
+// Nav scroll effect
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
+}, {passive:true});
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+/* Public Supabase configuration — publishable/anon key only. */
+window.CMS_SUPABASE_URL = "https://wmfmdyhvwcjqqykkwnbf.supabase.co";
+window.CMS_SUPABASE_ANON_KEY = "sb_publishable_NHj7HsVI0A05xaweGBVa8A_tbdnUPAy";
+</script>
+
+<script>
+/* I DIPINTI DI ALISI — PUBLIC CMS CONNECTION */
+(function(){
+  function cmsError(message){
+    console.error('[CMS Supabase]', message);
+    let box=document.getElementById('cms-connection-error');
+    if(!box){
+      box=document.createElement('div');
+      box.id='cms-connection-error';
+      box.style.cssText='position:fixed;top:14px;left:50%;transform:translateX(-50%);z-index:99999;max-width:min(900px,calc(100% - 28px));padding:14px 18px;border-radius:10px;background:#8d2d2d;color:#fff;font:600 13px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25)';
+      document.body.appendChild(box);
+    }
+    box.textContent='Errore collegamento Supabase CMS: '+message;
+  }
+
+  if (!window.supabase || !window.CMS_SUPABASE_URL || !window.CMS_SUPABASE_ANON_KEY) {
+    cmsError('configurazione Supabase mancante nel sito pubblico.');
+    return;
+  }
+
+  const db = window.supabase.createClient(
+    window.CMS_SUPABASE_URL,
+    window.CMS_SUPABASE_ANON_KEY,
+    { auth:{persistSession:false,autoRefreshToken:false,detectSessionInUrl:false} }
+  );
+
+  const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+
+  const colors = {
+    "Pinocchio":"#B5522A",
+    "Piazze e Visioni":"#294D78",
+    "Natura e Simbolo":"#4A7A52",
+    "Visioni Oniriche":"#2A2520",
+    "Le Matite":"#C4922A",
+    "Camicie":"#8A7A6E",
+    "Nature morte":"#5C4A3A",
+    "Altre visioni":"#4A4060"
+  };
+  const roman = ["I","II","III","IV","V","VI","VII","VIII","IX","X"];
+
+  function slug(v){
+    return String(v||'ciclo').toLowerCase().normalize('NFD')
+      .replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-')
+      .replace(/^-|-$/g,'');
+  }
+
+  function renderWorks(works, series){
+    const seriesById={};
+    series.forEach(s=>seriesById[s.id]=s.name);
+
+    const count=document.querySelector('.mh-count');
+    if(count) count.textContent=String(works.length);
+    const countLabel=document.querySelector('.mh-count-label');
+    if(countLabel) countLabel.textContent=works.length===1?'opera in mostra':'opere in mostra';
+
+    const nav=document.querySelector('.series-nav');
+    if(nav){
+      nav.innerHTML=series.map((s,i)=>
+        `<a href="#serie-${esc(slug(s.name))}" class="sn-item">${roman[i]||i+1} — ${esc(s.name)}</a>`
+      ).join('');
+    }
+
+    const mostra=document.getElementById('mostra');
+    if(!mostra) return;
+
+    mostra.querySelectorAll('.series-section').forEach(x=>x.remove());
+
+    series.forEach((s,i)=>{
+      const items=works.filter(w=>String(w.series_id||'')===String(s.id));
+      const section=document.createElement('section');
+      section.className='series-section';
+      section.id='serie-'+slug(s.name);
+      section.innerHTML=`
+        <div class="series-header" style="--sc:${esc(colors[s.name]||'#B8841E')}">
+          <div class="sh-inner">
+            <span class="sh-num">${roman[i]||i+1}</span>
+            <div class="sh-text">
+              <h2 class="sh-title">${esc(s.name)}</h2>
+              <p class="sh-desc">${esc(s.description||'')}</p>
+            </div>
+            <span class="sh-count">${items.length} ${items.length===1?'opera':'opere'}</span>
+          </div>
+        </div>
+        <div class="works-grid"></div>`;
+
+      const grid=section.querySelector('.works-grid');
+      items.forEach(w=>{
+        const idx=works.indexOf(w);
+        const src=w.image_url || '';
+        const card=document.createElement('div');
+        card.className='work-card';
+        card.dataset.workId=w.id||""; card.onclick=()=>openWork(idx);
+        card.innerHTML=`
+          <div class="work-thumb">
+            <img src="${esc(src)}" alt="${esc(w.title)}" loading="lazy" onerror="this.closest('.work-card')?.classList.add('work-image-error')">
+            <div class="work-overlay"><span class="wo-zoom">↗ Apri opera</span></div>
+          </div>
+          <div class="work-info">
+            <p class="wi-title">${esc(w.title)}</p>
+            <p class="wi-tech">${esc(w.technique||'')}${w.dimensions?`<span class="wi-dims"> — ${esc(w.dimensions)}</span>`:''}</p>
+            <p class="wi-year">${esc(w.year||'')}</p>
+          </div>`;
+        grid.appendChild(card);
+      });
+      mostra.appendChild(section);
+    });
+
+    // The existing modal/navigation code uses this global array.
+    WORKS=works.map(w=>({
+      id:w.id,
+      title:w.title||'',
+      tech:w.technique||'',
+      dims:w.dimensions||'',
+      series:seriesById[w.series_id]||'',
+      year:String(w.year||''),
+      desc:w.description||'',
+      src:w.image_url||'',
+      thumb:w.image_url||''
+    }));
+
+    if(typeof current!=='undefined' && current>=WORKS.length) current=Math.max(0,WORKS.length-1);
+  }
+
+  function renderExhibitions(rows){
+    const root=document.querySelector('#mostre .tl-inner');
+    if(!root || !rows.length) return;
+    const ordered=[...rows].sort((a,b)=>Number(b.year||0)-Number(a.year||0));
+    const personal=ordered.filter(x=>(x.exhibition_type||'').toLowerCase().includes('personal'));
+    const others=ordered.filter(x=>!(x.exhibition_type||'').toLowerCase().includes('personal'));
+
+    const group=(title,list)=>list.length?`
+      <div class="tl-group">
+        <p class="tl-group-label">${esc(title)}</p>
+        ${list.map(x=>{
+          const type=x.exhibition_type||'Mostra';
+          const t=type.toLowerCase();
+          const cls=t.includes('personal')?'tb-p':(t.includes('intern')||t.includes('biennale')?'tb-i':'tb-c');
+          return `<div class="tl-item">
+            <span class="tl-year">${esc(x.year||'')}</span>
+            <div class="tl-info">
+              <p class="tl-mostra">${esc(x.title||'')}</p>
+              <p class="tl-venue">${esc([x.venue,x.city].filter(Boolean).join(', '))}</p>
+              <span class="tl-badge ${cls}">${esc(type)}</span>
+            </div>
+          </div>`;
+        }).join('')}
+      </div>`:'';
+
+    root.innerHTML=`
+      <div class="tl-head"><h2 class="tl-title">Esposizioni</h2><span class="tl-subtitle">Dal 2007 ad oggi</span></div>
+      ${group('Mostre personali',personal)}
+      ${group('Principali mostre collettive',others)}`;
+  }
+
+  function renderCritics(rows){
+    const root=document.querySelector('#critica .cs-inner');
+    if(!root)return;
+    if(!rows.length){root.innerHTML='<span class="cs-label">Studio critico</span><p>Nessun testo critico pubblicato.</p>';return;}
+    root.innerHTML='<span class="cs-label">Studio critico</span><div class="cs-grid">'+rows.map(x=>{const paragraphs=String(x.quote||'').split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+esc(p)+'</p>').join('');return '<article class="cs-card">'+(x.title?'<h3 style="font-family:var(--ff-d);font-size:1.5rem;font-weight:400;margin-bottom:1rem">'+esc(x.title)+'</h3>':'')+'<div class="cs-body">'+paragraphs+'</div>'+(x.author?'<p class="cs-attr">— '+esc(x.author)+(x.publication?', '+esc(x.publication):'')+(x.year?' · '+esc(x.year):'')+'</p>':'')+'</article>';}).join('')+'</div>';
+  }
+
+  function youtubeId(url){
+    const m=String(url||'').match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([^?&/]+)/i);
+    return m?m[1]:'';
+  }
+
+  function renderVideos(rows){
+    const root=document.querySelector('#ms-yt .yt-grid');
+    if(!root || !rows.length) return;
+    root.innerHTML=rows.map(x=>{
+      const id=youtubeId(x.url);
+      return `<a class="yt-card" href="${esc(x.url||'#')}" target="_blank" rel="noopener">
+        ${id?`<img class="yt-thumb" src="https://img.youtube.com/vi/${esc(id)}/hqdefault.jpg" alt="${esc(x.title||'Video')}" loading="lazy">`:'<div class="yt-thumb-ph"><div class="yt-play"></div></div>'}
+        <div class="yt-info">
+          <p class="yt-label">Video</p>
+          <p class="yt-title">${esc(x.title||'Video')}</p>
+          <p class="yt-desc">${esc(x.description||'')}</p>
+          <span class="yt-link">↗ Guarda il video</span>
+        </div>
+      </a>`;
+    }).join('');
+  }
+
+  async function connect(){
+    try{
+      const [works,series,exhibitions,critics,videos]=await Promise.all([
+        db.from('works').select('*').eq('published',true).is('deleted_at',null).order('sort_order',{ascending:true}).order('created_at',{ascending:true}),
+        db.from('series').select('*').eq('published',true).is('deleted_at',null).order('sort_order',{ascending:true}).order('created_at',{ascending:true}),
+        db.from('exhibitions').select('*').eq('published',true).is('deleted_at',null).order('year',{ascending:false}),
+        db.from('critics').select('*').eq('published',true).is('deleted_at',null).order('year',{ascending:false}),
+        db.from('videos').select('*').eq('published',true).is('deleted_at',null).order('sort_order',{ascending:true}).order('created_at',{ascending:true})
+      ]);
+
+      if(works.error || series.error || exhibitions.error || critics.error || videos.error){
+        const errors=[
+          ['works',works.error],['series',series.error],['exhibitions',exhibitions.error],
+          ['critics',critics.error],['videos',videos.error]
+        ].filter(x=>x[1]).map(x=>x[0]+': '+(x[1].message||String(x[1])));
+        cmsError(errors.join(' | '));
+        console.error('[CMS Supabase] query errors',errors);
+        return;
+      }
+
+      renderWorks(works.data||[],series.data||[]);
+      renderExhibitions(exhibitions.data||[]);
+      renderCritics(critics.data||[]);
+      renderVideos(videos.data||[]);
+      const sw=document.getElementById('stat-works'); if(sw) sw.textContent=String((works.data||[]).length);
+      const ss=document.getElementById('stat-series'); if(ss) ss.textContent=String((series.data||[]).length);
+      const se=document.getElementById('stat-exhibitions'); if(se) se.textContent=String((exhibitions.data||[]).length);
+      document.documentElement.dataset.cmsConnected='true';
+      const opId=new URLSearchParams(location.search).get('opera'); if(opId){const idx=(works.data||[]).findIndex(w=>String(w.id)===String(opId)); if(idx>=0)setTimeout(()=>openWork(idx),80);}
+    }catch(err){
+      cmsError(err && err.message ? err.message : String(err));
+      console.error('[CMS Supabase] connection failed',err);
+    }
+  }
+
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',connect);
+  else connect();
+})();
+function initSeriesSpy(){const links=[...document.querySelectorAll('.series-nav .sn-item')];const sections=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);if(!('IntersectionObserver'in window))return;new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-110px 0px -60% 0px'}).observe(sections[0]);sections.slice(1).forEach(s=>{new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-110px 0px -60% 0px'}).observe(s)});}window.addEventListener('load',initSeriesSpy);
+</script>
+
+<script>
+(function(){
+  const KEY='alisi_privacy_notice_seen_v1';
+  const popup=document.getElementById('privacy-popup');
+  const closeBtn=document.getElementById('privacy-popup-close');
+  const okBtn=document.getElementById('privacy-popup-ok');
+  const reopen=document.getElementById('privacy-reopen');
+  if(!popup) return;
+  function openNotice(){popup.classList.add('open');popup.setAttribute('aria-hidden','false');}
+  function closeNotice(save){popup.classList.remove('open');popup.setAttribute('aria-hidden','true');if(save){try{localStorage.setItem(KEY,'1')}catch(e){}}}
+  let seen=false; try{seen=localStorage.getItem(KEY)==='1'}catch(e){}
+  if(!seen){setTimeout(openNotice,450)}
+  closeBtn&&closeBtn.addEventListener('click',()=>closeNotice(true));
+  okBtn&&okBtn.addEventListener('click',()=>closeNotice(true));
+  reopen&&reopen.addEventListener('click',openNotice);
+  popup.addEventListener('click',e=>{if(e.target===popup) closeNotice(true)});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&popup.classList.contains('open')) closeNotice(true)});
+})();
+</script>
+</body>
+</html>
